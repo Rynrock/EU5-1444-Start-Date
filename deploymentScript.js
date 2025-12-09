@@ -13,12 +13,8 @@ fs.mkdirSync(deployFolder);
 
 const fileList = fs.readdirSync("./");
 for (const file of fileList) {
-    console.log(file);
-    
     let isBlacklisted = false;
     for (const blackItem of fileBlacklist) {
-        console.log(blackItem.test(file));
-        
         if (blackItem.test(file)) {
             
             isBlacklisted = true;
