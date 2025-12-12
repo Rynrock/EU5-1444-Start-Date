@@ -21,3 +21,10 @@ SUK = { #Sukhothai
 	culture_definition = thai_culture
 	religion_definition = theravada
 }
+
+AVV = { # Ava
+	color = rgb { 98  138  99 }
+
+	culture_definition = burmese_culture
+	religion_definition = theravada
+}

@@ -49462,7 +49462,7 @@ countries = {
 			tai_lu_culture
 		}
 
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
 		capital = chiang_mai
 	}
 
@@ -49726,7 +49726,7 @@ countries = {
 		}
 	}
 
-	ARK = { #Arakan
+	ARK = { # Mrauk U (Previously Launggyet, Arakan in EU4)
 		own_control_core = {
 			launggyet
 			akyab ann gwa maungdaw minbya mrauk_u ramree talak_burma taungup thandwe weithali
@@ -49745,11 +49745,12 @@ countries = {
 			chakma_culture
 		}
 
-		capital = launggyet
+		country_rank = rank_kingdom
+		capital = mrauk_u
 	}
 
 	PIN = { #Pinya
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			pinya
 			htilin kanna kyaukse laungshe lewe magway mindon mingin myede ngape nwamethin nyaungyan pagan pakokku pindale pinle pyinmana sagu salay salin saw talok taungdwingyi thayet wetwin
 		}
@@ -49766,7 +49767,7 @@ countries = {
 	}
 
 	SAG = { #Sagaing
-		own_control_core = {
+		our_cores_conquered_by_others = {
 			sagaing
 			amyint butalin dhipaesyin moksobo myedu ngasingu takawng
 		}
@@ -49777,6 +49778,26 @@ countries = {
 		}
 
 		capital = sagaing
+	}
+
+	AVV = { # Ava
+		own_control_core = {
+			# Pinya
+			pinya
+			htilin kanna kyaukse laungshe lewe magway mindon mingin myede ngape nwamethin nyaungyan pagan pakokku pindale pinle pyinmana sagu salay salin saw talok taungdwingyi thayet wetwin
+			# Sagaing
+			sagaing
+			amyint butalin dhipaesyin moksobo myedu ngasingu takawng
+		}
+		tolerated_cultures = {
+			zo_culture
+		}
+		include = "south_east_asia_monarchy_no_coast"
+		government = {
+			# TODO
+		}
+		country_rank = rank_kingdom
+		capital = pinya
 	}
 
 	TNG = { #Toungoo
@@ -49835,7 +49856,7 @@ countries = {
 		capital = pua
 	}
 
-	MUA = { #Muang Sua
+	MUA = { #Muang Sua (Lan Xang)
 		own_control_core = {
 			muang_sua ban_luang_cheng hongsa muang_et muang_kham muang_lang muang_thaeng muang_xay nam_xuang phongsali
 			phonsavan xam_neua 

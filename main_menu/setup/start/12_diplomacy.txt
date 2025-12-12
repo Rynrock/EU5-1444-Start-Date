@@ -716,8 +716,8 @@ diplomacy_manager = {
     #------------South East Asia-------------
     dependency = { first = CHI second = CHA subject_type = tributary }
     dependency = { first = CHI second = DAI subject_type = tributary }
-    dependency = { first = PIN second = TNG subject_type = vassal }
-    dependency = { first = PIN second = BPR subject_type = vassal }
+    dependency = { first = AVV second = TNG subject_type = vassal }
+    dependency = { first = AVV second = BPR subject_type = vassal }
     dependency = { first = SUK second = PUA subject_type = vassal }
     dependency = { first = AYU second = SUK subject_type = vassal }
     dependency = { first = HSE second = MGT subject_type = vassal }
