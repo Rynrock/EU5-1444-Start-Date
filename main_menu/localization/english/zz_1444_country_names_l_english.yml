@@ -1,9 +1,5 @@
 ﻿l_english:
- timurid_prince: "Timurid Prince"
- rank_county_timurid_prince: "Timurid"
- rank_duchy_timurid_prince: "Timurid Emirate"
- rank_kingdom_timurid_prince: "Timurid Sultanate"
- rank_empire_timurid_prince: "Timurid Empire"
+ timurid_prince: "Monarchy"
  TIM: "Timurids"
  TIM_ADJ: "Timurids"
  TIS: "Samarkand"

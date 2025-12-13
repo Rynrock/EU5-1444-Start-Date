@@ -1,19 +1,11 @@
 ﻿# Timurid Prince
 text = {
-    localization_key = rank_county_timurid_prince
-    trigger = {
-        country_rank_is_empire = yes
-        government_type = government_type:timurid_prince
-    }
-}
-text = {
     localization_key = rank_kingdom_timurid_prince
     trigger = {
         country_rank_is_kingdom = yes
         government_type = government_type:timurid_prince
     }
 }
-
 text = {
     localization_key = rank_duchy_timurid_prince
     trigger = {
