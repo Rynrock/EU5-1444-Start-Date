@@ -4146,7 +4146,7 @@ AFG_f = {
 #	rule = historical
 #	
 #	potential = {
-		OR = {
+#		OR = {
 #			tag = c:TIS
 #			tag = c:TIG
 #			tag = c:TTK
