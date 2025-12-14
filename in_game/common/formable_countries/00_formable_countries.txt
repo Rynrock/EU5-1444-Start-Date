@@ -4146,12 +4146,7 @@ TIX_f = {
 	rule = historical
 	
 	potential = {
-		tetag = c:TIS
-		tag = c:TIG
-		tag = c:TTK
-		tag = c:TIK
-		tag = c:TIF
-		tag = c:TII
+		tag = c:TIS
 	}
 	
 	allow = {
