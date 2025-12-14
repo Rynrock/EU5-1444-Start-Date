@@ -4,7 +4,7 @@
   "version": "1",
   "game_id": "eu5",
   "picture": "thumbnail.png",
-  "supported_game_version": "1.0.8",
+  "supported_game_version": "1.0.9",
   "short_description": "1444 Start Date mod",
   "tags": [
     "Gameplay"
