@@ -63,23 +63,16 @@ MLA = { # Multan
 }
 NAU = { # Nagaur
     pattern = "pattern_solid.dds"
-    color1 = hsv360     {    25     85    93    }  # carrot orange
-    color2 = hsv360     {    0      0     100   }  # white
-    color3 = hsv360     {    20     95    80    }  # deep orange
-    
-    colored_emblem = {
-        texture = "ce_sun.dds"
-        color1 = color2
-        color2 = color2
-        instance = { position = { 0.5 0.3 } scale = { 0.5 0.5 } }
-    }
+    color1 = hsv360     {    25     85    93    }
+    color2 = hsv360     {    0      0     100   } 
+    color3 = hsv360     {    20     95    80    }
 }
 
 MEA = { # Mewat
     pattern = "pattern_horizontal_split.dds"
-    color1 = hsv360     {    195    25    90    }  # ice blue
-    color2 = hsv360     {    0      0     100   }  # white
-    color3 = hsv360     {    140    60    40    }  # deep green (Islamic color)
+    color1 = hsv360     {    195    25    90    }
+    color2 = hsv360     {    0      0     0   } 
+    color3 = hsv360     {    140    60    40    }
     
     colored_emblem = {
         texture = "ce_crescent_increscent.dds"
