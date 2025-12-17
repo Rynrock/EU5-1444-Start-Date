@@ -63967,12 +63967,11 @@ countries = {
 
         NAU = { #Nagaur
             own_control_core = {
-                nagaur
+                nagaur makrana merta ajmer kurki mandore osian
             }
 
             starting_technology_level = 3
             include = "indian_muslim_monarchy"
-            country_rank = rank_kingdom
 
             government = {
                 type = monarchy
@@ -63990,12 +63989,11 @@ countries = {
 
         MEA = { #Mewat
             own_control_core = {
-                alwar
+                alwar bayana bharatpur gurgaon narnaul
             }
 
             starting_technology_level = 3
             include = "indian_muslim_monarchy"
-            country_rank = rank_kingdom
 
             government = {
                 type = monarchy
@@ -64010,5 +64008,9 @@ countries = {
             religious_school = hanafi_school
             capital = alwar
         }
+    #BAH
+    #MLW
+    #GJR
+    #JNP
     }
 }
