@@ -7261,7 +7261,11 @@ countries = {
         #JLW - Jhalawar / Limbdi
         JLW = {
             own_control_core = {
-                limbdi dhrangadhra morvi
+                dhrangadhra morvi
+            }
+
+            our_cores_conquered_by_others = {
+                limbdi
             }
 
             include = "expl_india_hindu"
@@ -7278,7 +7282,7 @@ countries = {
 
         #GHL - Gohilvad
         GHL = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 sihor danduka
             }
 
@@ -7327,7 +7331,7 @@ countries = {
         JNG = {
             #https://en.wikipedia.org/wiki/Junagadh_State
             own_control_core = {
-                junagarh somnath diu amreli gondal chhaya
+                junagarh amreli
             }
 
             include = "indian_hindu_monarchy_jain"
@@ -7373,7 +7377,7 @@ countries = {
         #RNP - Ranpur, later relocated and rebranded as Porbandar State
         RNP = {
             #https://en.wikipedia.org/wiki/Ranpur_State
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 ranpur
             }
 
@@ -64071,11 +64075,5 @@ countries = {
             religious_school = hanafi_school
             capital = thalner
         }
-   
-   
-   
-    #BAH
-    #MLW
-    #JNP
     }
 }

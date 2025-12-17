@@ -60,3 +60,27 @@ KHD = {
     culture_definition = marathi_culture
     religion_definition = sunni
 }
+BAH = { #Bahmanis
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = farsi_culture
+    religion_definition = shia
+}
+MLW = { #Malwa
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = malvi
+    religion_definition = sunni
+}
+JNP = { #Jaunpur
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = bhojpuri_culture
+    religion_definition = sunni
+}
+GJR = { #Gujarat
+    color = rgb { 196 115 85 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = gujarati
+    religion_definition = sunni
+}
