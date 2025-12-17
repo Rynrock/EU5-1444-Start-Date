@@ -7486,17 +7486,18 @@ countries = {
                 rohri dubbi ghotki kot_lalu kandiaro islamgarh
                 rajabar moro_sindh mansura
 
-                #Siwistan/Sibi
-                #This region should most likely be under an independent ruler, though I have not found which one.
-                siwi dhadar gandava lahri bab_kot jhal
-                dera_bugti mithri sui_pakistan
+                thatta sonda manora muhammad_tur laribandar
+                ahmad_khan kotri naserpur hala ranikot
+                vingur nagarparkar
+                chor umarkot wanga_bazar
+                agham_kot islamkot
             }
 
             religious_school = hanafi_school
             government = { mysticism_vs_jurisprudence = -15 }
 
             include = "indian_muslim_monarchy_no_dharmic_dhimmi_no_coast_no_censor"
-            capital = sehwan
+            capital = thatta
 
             government = {
                 ruler = sma_jam_unar_samma
@@ -7508,46 +7509,15 @@ countries = {
                 laws = {
                     sharia_law = hanafi_policy
                 }
-            }
-
-            tolerated_cultures = { baloch_culture }
-        }
-
-        #SND - Sindh
-        SND = {
-            #https://en.wikipedia.org/wiki/Sindh
-            own_control_core = {
-                thatta sonda manora muhammad_tur laribandar
-                ahmad_khan kotri naserpur hala ranikot
-                vingur nagarparkar
-                chor umarkot wanga_bazar
-                agham_kot islamkot
-                kiradu
-            }
-
-            religious_school = ismaili_school
-
-            include = "indian_muslim_monarchy"
-            capital = umarkot
-
-            government = {
-                ruler = random
-
-                reforms = {
-                    taluqdar_nobility
-                    indian_sultanate_reform
-                }
-                laws = {
-                    sharia_law = ismaili_policy
-                }
-
                 #Societal Values
-                land_vs_naval = 50
+                centralization_vs_decentralization = 75
             }
 
-            tolerated_cultures = { marwari }
+            tolerated_cultures = { 
+                marwari
+            }
         }
-
+        
         #JJK - Jejakabhukti
         JJK = {
             #What remains of the Chandella dynasty. Would linger on until the 1600s but had already lost most real power except for these last disconnected strongholds.
@@ -7988,7 +7958,7 @@ countries = {
         MEW = {
             #https://en.wikipedia.org/wiki/Mewar
             own_control_core = {
-                nagahrada amet chittor chavand salumbar kanthal
+                nagahrada amet chittor chavand salumbar kanthal kiradu
             }
 
             include = "expl_india_hindu"
@@ -63893,6 +63863,24 @@ countries = {
                 ruler = random
             }
         }
+        SIW = {
+            own_control_core = {
+                siwi dhadar gandava lahri bab_kot jhal
+                dera_bugti mithri sui_pakistan
+            }
 
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+
+            government = {
+                type = tribe
+                heir_selection = cognatic_primogeniture
+                ruler = ttk_abd_al_latif
+
+            }
+
+            religious_school = maturidi_school
+            capital = siwi
+        }
     }
 }
