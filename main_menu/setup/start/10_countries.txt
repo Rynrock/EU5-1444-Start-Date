@@ -6384,11 +6384,11 @@ countries = {
         #DLH - Delhi
         DLH = {
             own_control_core = {
-                delhi gurgaon rohtak panipat jind #Delhi Province
+                delhi rohtak panipat jind #Delhi Province
                 mirat hapur jansath baran saharanpur piran_i_kaliyar #Upper Doab
                 etawah kanauj sargadwari makanpur #Central Doab
                 prayag kara asni korra #Lower Doab
-                narnaul bharatpur #Mewat
+                
                 agra mathura jalesar_doab kol chandwar #Braj
                 sirhind sadhaura samana_india thanesar kaithal karnal #Puadh
                 hisar dadri hansi #Bhattiana
@@ -6416,10 +6416,9 @@ countries = {
                 daman surat rander broach baroda
                 khambat dholka ashaval modasa
                 patan deodar radhanpur
-                ranthambore sheopur ajmer
-                merta makrana kurki
-                osian phulia mandalgarh bhilwara
-                bayana mandore sabalgarh
+                ranthambore sheopur
+                phulia mandalgarh bhilwara
+                sabalgarh
                 kalam kelapur mahagaon panar amravati illichpur gawilgarh asirgarh
                 burhanpur pachora sindkedh mehkar akola
                 basim laling thalner sultanpur nandurbar dharangaon
