@@ -6397,8 +6397,6 @@ countries = {
                 jalandhar rahon bajwara milwat kapurthala #Doaba
                 pindi_bhattian shorkot dijkot #Rechna Doab
                 gujrat busal bhera lalian shahpur sillanwali #Jech Doab
-                chakwal dina khewra pindi_gheb rawalpindi sangni #Pothwar
-                attock #Peshawar
                 shishgarh chandpur_uttar_pradesh nagina seohara shahabad_uttar_pradesh
             }
 
@@ -6414,9 +6412,9 @@ countries = {
                 bidar yedagiri gulbarga kalyani sagar talikota bagalkot bijapur kembhavi sindagi basavana_bagewadi athani
                 singarh raigarh pune junnar chakan
                 daman surat rander broach baroda
-                khambat dholka ashaval modasa
+                khambat dholka ashaval
                 patan deodar radhanpur
-                ranthambore sheopur
+                ranthambore sheopur palanpur
                 phulia mandalgarh bhilwara
                 sabalgarh
                 kalam kelapur mahagaon panar amravati illichpur gawilgarh asirgarh
@@ -7243,6 +7241,7 @@ countries = {
             own_control_core = {
                 srinagar pulawama baramulla ganderbal kupwara banihal sharda
                 rawalakot kohtali
+                attock rawalpindi sangni pindi_gheb chakwal khewra dina
             }
 
             capital = srinagar
@@ -7802,8 +7801,8 @@ countries = {
             #After the Delhi destruction of most of their land this state is home to a great number of Chauhans that have taken refuge here.
             #Was ultimately destroyed by the Gujarat Sultanate, and most of its artisans, etc, were relocated to Ahmedabad.
 
-            own_control_core = {
-                jalor chandravati sirohi palanpur nadol
+            our_cores_conquered_by_others = {
+                jalor chandravati sirohi nadol
                 siwana
 
                 gudamalani
@@ -7827,7 +7826,7 @@ countries = {
         IDR = {
             #https://en.wikipedia.org/wiki/Idar,_Gujarat
             own_control_core = {
-                idar
+                idar modasa dungarpur
             }
 
             include = "expl_india_hindu"
@@ -7854,12 +7853,12 @@ countries = {
         DGR = {
             #https://www.indianrajputs.com/view/dungarpur
             own_control_core = {
-                dungarpur banswara
+                banswara
             }
 
             include = "expl_india_hindu"
             include = "indian_hindu_monarchy_jain_no_coast"
-            capital = dungarpur
+            capital = banswara
             government = {
                 ruler_term = { character = dgr_samantasimha_sisodia start_date = 1197.1.1 end_date = 1209.1.1 regnal_number = 1 }
                 ruler_term = { character = dgr_jayat_singh_sisodia start_date = 1209.1.1 end_date = 1218.1.1 regnal_number = 1 }
@@ -7953,6 +7952,9 @@ countries = {
             own_control_core = {
                 nagahrada amet chittor chavand salumbar kanthal kiradu
                 khed pali
+                jalor chandravati sirohi nadol
+                siwana
+                gudamalani
             }
 
             include = "expl_india_hindu"

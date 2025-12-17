@@ -13,28 +13,14 @@ SIW = { # Siwistan
 
 SEH = { #Sindh puppet
     pattern = "pattern_diagonal_split.dds"
-    color1 = hsv360     {    0      100   50    }  # red
-    color2 = hsv360     {    0      0     100   }  # white
-    
-    colored_emblem = {
-        texture = "ce_bars_03.dds"
-        color1 = hsv360     {    0      0     0     }  # black
-        color2 = color2
-        instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
-    }
+    color1 = "red"
+    color2 = "white"
 }
 
 SKU = { #Sindh Puppet
     pattern = "pattern_horizontal_split.dds"
-    color1 = hsv360     {    0      100   50    }  # red
-    color2 = hsv360     {    0      0     100   }  # white
-    
-    colored_emblem = {
-        texture = "ce_bars_03.dds"
-        color1 = color1
-        color2 = color1
-        instance = { position = { 0.5 0.5 } scale = { 1.2 1.2 } }
-    }
+    color1 = "red"
+    color2 = "white"
 }
 
 MLA = { # Multan
@@ -70,9 +56,9 @@ NAU = { # Nagaur
 
 MEA = { # Mewat
     pattern = "pattern_horizontal_split.dds"
-    color1 = hsv360     {    195    25    90    }  # ice blue
-    color2 = hsv360     {    0      0     100   }  # white
-    color3 = hsv360     {    140    60    40    }  # deep green
+    color1 = "light_blue"
+    color2 = "white"
+    color3 = "dark_green"
     
     colored_emblem = {
         texture = "ce_crescent_increscent.dds"
