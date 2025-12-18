@@ -84,3 +84,9 @@ GJR = { #Gujarat
     culture_definition = gujarati
     religion_definition = sunni
 }
+KAP = { #Kapi
+    color = rgb { 40 115 200 }
+    color2 = rgb { 139 69 19 }
+    culture_definition = bundeli
+    religion_definition = sunni
+}

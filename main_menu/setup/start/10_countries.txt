@@ -7468,7 +7468,7 @@ countries = {
         JJK = {
             #What remains of the Chandella dynasty. Would linger on until the 1600s but had already lost most real power except for these last disconnected strongholds.
             own_control_core = {
-                kalinjar mahoba
+                kalinjar chitrakuta nagod pannna bhatta
             }
 
             include = "expl_india_hindu"
@@ -7507,8 +7507,7 @@ countries = {
         BND = {
             #https://en.wikipedia.org/wiki/Bundelkhand https://en.wikipedia.org/wiki/Chedi_Kingdom
             own_control_core = {
-                orchha kundar tehri irij chhatarpur rahatgarh
-                khajuraho banda rath jhansi
+                chhatarpur rahatgarh khajuraho banda
             }
 
             include = "expl_india_hindu"
@@ -7528,9 +7527,8 @@ countries = {
         #BGK - Baghelas
         BGK = {
             own_control_core = {
-                bandogarh rewa nagod ramnagar beohari madwas chitrakuta
-                panna bhatta
-                sohagpur
+                bandogarh rewa ramnagar beohari madwas janakpur sidhi
+                sohagpur mauganj shankargah kantit
             }
 
             include = "expl_india_hindu"
@@ -8010,7 +8008,7 @@ countries = {
             own_control_core = {
                 gwalior
                 narwar datia
-                sipri shahabad khaniadhana
+                sipri shahabad khaniadhana bhind
             }
 
             include = "expl_india_hindu"
@@ -8111,7 +8109,7 @@ countries = {
         #GOA - Goa
         GOA = {
             #https://en.wikipedia.org/wiki/History_of_Goa
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 goa madgaon
             }
 
@@ -8227,7 +8225,7 @@ countries = {
         #KHR - Kherla
         KHR = {
             #https://en.wikipedia.org/wiki/Kingdom_of_Kherla
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 kherla devgarh
             }
 
@@ -8256,7 +8254,11 @@ countries = {
         GHR = {
             #https://en.wikipedia.org/wiki/Garha_Kingdom
             own_control_core = {
-                garha mandla amarkantak ghansor ramgad nainpur chauragarh tendukheda murwara
+                garha mandla amarkantak ghansor ramgad nainpur murwara
+                ujargarh singorgarh damoh sugaur deogarh chhaparagarh balaghat
+            }
+            our_cores_conquered_by_others = {
+                chauragarh tendukheda
             }
 
             include = "expl_india_hindu"
@@ -8281,7 +8283,7 @@ countries = {
 
         #BGR - Bandhugara
         BGR = {
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 bandhugara dongartal katol
             }
 
@@ -8300,12 +8302,8 @@ countries = {
         #WRG - Wairagarh
         WRG = {
             #https://en.wikipedia.org/wiki/Vairagad_Fort
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 wairagarh balaghat
-            }
-
-            own_control_integrated = {
-                chhaparagarh
             }
 
             include = "expl_india_hindu"
@@ -64057,7 +64055,8 @@ countries = {
         }
    KHD = { #Kandesh
             own_control_core = {
-                thalner
+                thalner sultanpur nandurbar laling dharangaon chandor
+                pachora burhanpur asirgarh
             }
 
             starting_technology_level = 3
@@ -64074,6 +64073,52 @@ countries = {
 
             religious_school = hanafi_school
             capital = thalner
+        }
+        MLW = { #Malwa
+            own_control_core = {
+                mandu bijagarh alirajpur madleshwar khandwa handia hoshangabad kherla
+                chauragarh tendukheda bhilsa sironj chanderi sarangpur maksi ujjain mandsaur
+                ratlam dhar raisin bhojpur bhopal sehore khategaon indore maheshwar devgarh
+                mahoba
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+            country_rank = rank_kingdom
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = mandu
+        }
+        KAP = { #Kalpi
+            own_control_core = {
+                kalpi konch irij jhansi orchha kundar tehri lalitpur
+            }
+
+            starting_technology_level = 3
+            include = "indian_muslim_monarchy"
+
+            government = {
+                type = monarchy
+                heir_selection = cognatic_primogeniture
+                ruler = random
+                
+                reforms = {
+                    indian_sultanate_reform
+                }
+            }
+
+            religious_school = hanafi_school
+            capital = kalpi
         }
     }
 }

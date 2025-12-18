@@ -138,3 +138,8 @@ KHD = { #Khandesh
         instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
     }
 }
+KAP = { #Kapi
+    pattern = "pattern_vertical_split.dds"
+    color1 = "brown"
+    color2 = "dark_red"
+}

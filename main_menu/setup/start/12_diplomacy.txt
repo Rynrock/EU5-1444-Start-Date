@@ -114,6 +114,10 @@ diplomacy_manager = {
     dependency = { first = ALU second = STR subject_type = samanta }
     dependency = { first = PDU second = VDK subject_type = samanta } #Cochin - > Vadakkumkur
     dependency = { first = MEW second = HAD subject_type = vassal }
+    dependency = { first = MAL second = GHR subject_type = vassal }
+    dependency = { first = MAL second = BND subject_type = vassal }
+    dependency = { first = MAL second = KAP subject_type = vassal }
+
 
     #Kashmiri Subjects:
     #Rajouri
