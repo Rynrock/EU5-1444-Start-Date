@@ -9,7 +9,7 @@ war_manager = {
         }
     
         start_date = 1444.11.11
-        action = 1550.11.11
+        action = 1444.11.11
     
         # ATTACKERS
         attacker = {
