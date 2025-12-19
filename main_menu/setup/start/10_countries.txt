@@ -64242,7 +64242,8 @@ countries = {
          #SIR - Sirhind
         SIR = {
             own_control_core = {
-                sirhind
+                sirhind samana_india sunam bathinda raikot rahon rajwara jalandhar hajner faridkot
+                muktsar chishtian
             }
 
             include = "expl_india_hindu"
@@ -64253,7 +64254,7 @@ countries = {
                     indian_sultanate_reform
                 }
             }
-
+            religious_school = hanafi_school
         }
 
     }

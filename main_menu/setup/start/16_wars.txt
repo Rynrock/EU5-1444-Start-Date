@@ -4,7 +4,7 @@ war_manager = {
             name = "CIVIL_WAR_NAME"
             ordinal = 1
             first = {
-                name = "DEH"
+                name = "DLH"
             }
         }
     
@@ -21,7 +21,7 @@ war_manager = {
     
         # DEFENDERS
         defender = {
-            country = DEH
+            country = DLH
             request = {
                 reason = Target
             }

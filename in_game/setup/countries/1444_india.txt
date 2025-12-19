@@ -106,7 +106,7 @@ SIR = { #Sirhind
     color = rgb { 186 184 108 }
     color2 = rgb { 128 0 32 }
     culture_definition = punjabi
-    religion_definition = hindu
+    religion_definition = sunni
 }
 ASS = { #Assam
     color = rgb { 128 0 32 }
