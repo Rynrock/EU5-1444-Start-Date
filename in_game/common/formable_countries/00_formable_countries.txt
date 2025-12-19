@@ -2090,8 +2090,9 @@ DLH_f = {
 	adjective = DLH_ADJ
 	tag = DLH
 	color = map_delhi
-	regions = {
-		hindustan_region
+	provinces = {
+		puadh_province
+		delhi_province
 	}
 	form_effect = {
 		if = {

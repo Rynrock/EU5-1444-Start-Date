@@ -64243,7 +64243,10 @@ countries = {
         SIR = {
             own_control_core = {
                 sirhind samana_india sunam bathinda raikot rahon rajwara jalandhar hajner faridkot
-                muktsar chishtian
+                muktsar chishtian jalandhar milwat kapurthala firozpur diapalpur pakpattan chichawatini
+                gugera kasur lahore fatehabad batala sultanwind kalanaur pasrur sialkot eminabad virkgarh
+                pindi_bhattian talwandi jaranwala chiniot dijkot jhang kamalia shorkot sillanwali shahpur
+                lalian bhera busal gujrat
             }
 
             include = "expl_india_hindu"
