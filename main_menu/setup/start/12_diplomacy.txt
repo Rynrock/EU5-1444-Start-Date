@@ -147,6 +147,10 @@ diplomacy_manager = {
     dependency = { first = ORI second = KJA subject_type = samanta }
     dependency = { first = ORI second = PTN subject_type = samanta }
     dependency = { first = ORI second = MJU subject_type = samanta }
+    dependency = { first = ORI second = PLA subject_type = samanta }
+    dependency = { first = ORI second = BNA subject_type = samanta }
+    dependency = { first = ORI second = KLH subject_type = samanta }
+    dependency = { first = ORI second = BNA subject_type = samanta }
 
     dependency = { first = GAU second = TRF subject_type = samanta }
 

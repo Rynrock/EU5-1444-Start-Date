@@ -7532,7 +7532,7 @@ countries = {
         BGK = {
             own_control_core = {
                 bandogarh rewa ramnagar beohari madwas janakpur sidhi
-                sohagpur mauganj shankargah kantit
+                sohagpur mauganj shankargah kantit agori vijaygarh
             }
 
             include = "expl_india_hindu"
@@ -8366,6 +8366,7 @@ countries = {
             }
             own_control_integrated = {
                 tuni madugula visakhapatnam vizianagaram bobbili
+                tamluk hijli chandrakona madaran
             }
 
             include = "expl_india_hindu"
@@ -52972,7 +52973,7 @@ countries = {
                 santal_culture
             }
 
-            capital = satgaon
+            capital = gaur
         }
 
         AHO = {
@@ -52984,6 +52985,7 @@ countries = {
                 morangi dergaon
                 tezpur bordowa rowta durjaya guwahati
                 lyngngam sohra nabagram
+                daboka sutnga jaintiapur
             }
 
             include = "expl_india_hindu"
@@ -53004,12 +53006,15 @@ countries = {
             #Kamata
             own_control_core = {
                 kamatapur
-                barpeta bijni dhubri durjaya goalpara hajo kokrajhar
+                barpeta bijni dhubri goalpara hajo kokrajhar
             }
 
             own_control_integrated = {
                 birpara koch_bihar
-                bordowa tezpur rowta guwahati
+            }
+
+            our_cores_conquered_by_others = {
+                durjaya
             }
 
             include = "expl_india_hindu"
@@ -53162,7 +53167,10 @@ countries = {
         BHP = {
             #Mallabhum
             own_control_core = {
-                bishnupur bankura barabhum chandrakona hijli madaran raipur_bengal tamluk
+                bishnupur bankura
+            }
+            our_cores_conquered_by_others = {
+                barabhum chandrakona hijli madaran raipur_bengal tamluk
                 ghatsila chaibasa kharsawan
             }
 
@@ -53244,9 +53252,9 @@ countries = {
 
         ONW = {
             #Oiniwar
-            our_cores_conquered_by_others = {
+            own_control_core = {
                 madhubani darbhanga janakpur_nepal jhanjharpur siraha sitamarhi
-                purnia alamganj bihariganj katihar kosi saharsa
+                chaudandi sheohar mehsi bettiah ramnagar_bihar simraungadh
             }
 
             include = "expl_india_hindu"
@@ -53266,7 +53274,7 @@ countries = {
             #Khokhra
             own_control_core = {
                 khukhragarh ranchi ichagarh porahat
-                jashpur_nagar birugarh
+                jashpur_nagar birugarh chaibasa kharsawan ghatsila raipur_bengal barabhum shergarh katrasgarh gobindpur
             }
 
             include = "expl_india_hindu"
@@ -53306,10 +53314,11 @@ countries = {
 
         KHS = {
             #Khasa
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 sinja bajura dullu jumla kharpunath yanal_densa
                 jagatipur chaughera dolpo malneta musikot pyuthan salianah
                 pokhara gulmi takam tanahun tansen
+                lumbini
             }
 
             include = "expl_india_hindu"
@@ -53450,7 +53459,7 @@ countries = {
 
         CDD = {
             #Chaundandi
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 chaudandi
             }
 
@@ -64153,12 +64162,12 @@ countries = {
         JNP = { #Jaunpur
             own_control_core = {
                 jaunpur hajipur samastipur monghyr gidhaur roh chai hazaribagh urda rohtas
-                chatra tarhasi untari narhat gaya deo patna rajgir bihar_sharif sonepur_bihar andar thawe kushinagar gorakhpur binayakpur
+                chatra tarhasi untari narhat gaya deo patna rajgir bihar_sharif sonepur_bihar andar thawe kushinagar gorakhpur binayakpur rudrapur
                 buxar arrah ballia jaund sasaram chunar varanasi bhadohi mungra sultanpur_uttar_pradesh ghazipur mau_jaunpur azamgarh chillupar bansi basti
                 gonda balrampur tulsipur shravasti bahraich akbarpur awadh kishi raebareli mungra bhadohi prayag kara asni manikpur raebareli korra
                 makanpur etawah kanauj agra chandwar sargadwari jalesar_doab mathura kol unnao bilgram lucknow ibrahimabad biswan khairabad hardoi pali_uttar_pradesh
-                biswan khairabad firuzabad_bahraich bhurwara kherigarh nahil pilibhit shahjahanpur bareilly dudaun gunnaur sambhal chandpur_uttar_pradesh
-                shahabad_uttar_pradesh seohara nagina
+                biswan khairabad firuzabad_bahraich bhurwara kherigarh nahil pilibhit shahjahanpur bareilly budaun gunnaur sambhal chandpur_uttar_pradesh
+                shahabad_uttar_pradesh seohara nagina shishgarh
             }
             
             starting_technology_level = 3
@@ -64262,8 +64271,8 @@ countries = {
          #SIR - Sirhind
         SIR = {
             own_control_core = {
-                sirhind samana_india sunam bathinda raikot rahon rajwara jalandhar hajner faridkot
-                muktsar chishtian jalandhar milwat kapurthala firozpur diapalpur pakpattan chichawantni dipalpur
+                sirhind samana_india sunam bathinda raikot rahon bajwara jalandhar hajner faridkot
+                muktsar chishtian jalandhar milwat kapurthala firozpur pakpattan chichawatni dipalpur
                 gugera kasur lahore fatehabad batala sultanwind kalanaur pasrur sialkot eminabad virkgarh
                 pindi_bhattian talwandi jaranwala chiniot dijkot jhang kamalia shorkot sillanwali shahpur
                 lalian bhera busal gujrat
@@ -64280,5 +64289,184 @@ countries = {
             religious_school = hanafi_school
         }
 
+		JUM = { # Jumla
+		    own_control_core = {
+		        sinja bajura dullu jumla kharpunath yanal_densa
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = jumla
+		}
+		
+		PLP = { # Palpa
+		    own_control_core = {
+		        tansen gulmi lumbini
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = tansen
+		}
+		
+		PAB = { # Parbat
+		    own_control_core = {
+		        takam dolpo
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = takam
+		}
+		
+		SLY = { # Salyan
+		    own_control_core = {
+		        salianah malneta
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = salianah
+		}
+		
+		JAJ = { # Jajarkot
+		    own_control_core = {
+		        jagatipur
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = jagatipur
+		}
+		
+		DAG = { # Dang
+		    own_control_core = {
+		        chaughera
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = chaughera
+		}
+		
+		MSI = { # Musikot
+		    own_control_core = {
+		        musikot
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = musikot
+		}
+		
+		PUY = { # Pyuthan
+		    own_control_core = {
+		        pyuthan
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = pyuthan
+		}
+		
+		KPI = { # Kaski
+		    own_control_core = {
+		        pokhara
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = pokhara
+		}
+		
+		THN = { # Tanahun
+		    own_control_core = {
+		        tanahun
+		    }
+		
+		    starting_technology_level = 3
+		    include = "expl_india_hindu"
+		    include = "indian_hindu_monarchy_jain_no_coast"
+		
+		    government = {
+		        type = monarchy
+		        heir_selection = cognatic_primogeniture
+		        ruler = random
+		    }
+		
+		    capital = tanahun
+		}
     }
 }

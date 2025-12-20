@@ -158,3 +158,53 @@ SIR = { #Sirhind
     color1 = "brown"
     color2 = "dark_red"
 }
+JUM = { # Jumla
+    pattern = "pattern_vertical_split.dds"
+    color1 = "dark_yellow"
+    color2 = "dark_red"
+}
+PLP = { # Palpa
+    pattern = "pattern_vertical_split.dds"
+    color1 = "red"
+    color2 = "gold"
+}
+PAB = { # Parbat
+    pattern = "pattern_vertical_split.dds"
+    color1 = "blue"
+    color2 = "white"
+}
+SLY = { # Salyan
+    pattern = "pattern_vertical_split.dds"
+    color1 = "green"
+    color2 = "light_brown"
+}
+JAJ = { # Jajarkot
+    pattern = "pattern_vertical_split.dds"
+    color1 = "brown"
+    color2 = "white"
+}
+DAG = { # Dang
+    pattern = "pattern_vertical_split.dds"
+    color1 = "purple"
+    color2 = "black"
+}
+MSI = { # Musikot
+    pattern = "pattern_vertical_split.dds"
+    color1 = "orange"
+    color2 = "dark_green"
+}
+PUY = { # Pyuthan
+    pattern = "pattern_vertical_split.dds"
+    color1 = "blue"
+    color2 = "dark_red"
+}
+KPI = { # Kaski
+    pattern = "pattern_vertical_split.dds"
+    color1 = "orange"
+    color2 = "dark_blue"
+}
+THN = { # Tanahun
+    pattern = "pattern_vertical_split.dds"
+    color1 = "dark_green"
+    color2 = "white"
+}
