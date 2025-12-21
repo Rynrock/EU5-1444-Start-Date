@@ -30614,6 +30614,9 @@ countries = {
                 enhe_hada jiliu lower_gazimur merelka upper_gazimur urov
 
                 abagaita gegen hasar khirkhira talman_boorj
+
+                yinshan hebin ningbian yunnei fengzhou dongsheng wuchuan zhenwu
+                pingdi liangcheng erdao xuanning jining weining
             }
 
             include = "far_east_asia_monarchy_not_present"
@@ -30741,7 +30744,7 @@ countries = {
                 anqiu boxing changle yiyuan gegou lean juxian linqu mengyin yidu_qingzhou rizhao shizilu shouguang wulian yishui zhucheng zichuan
                 chuqiu chengwu dingtao xucheng feixian yutai jiyin jiaxiang tengdong rencheng jinxiang juye shouzhang linyi ningyang pingyin qufu shagou shansu sishui tancheng tengxian donge wenshang yanggu_yanzhou ziyang yuncheng yizhou_tengzhou zouxian
 
-                yinshan shanyin datong_datong hebin erdao xuanning guangling zhenwu huairen fengzhou hunyuan zhongling jining feihu lingqiu shenwu ningbian yunnei shanyang_yingzhou tiancheng liangcheng dongsheng wuchuan baideng jincheng yulin_datong lingxian_shanxi pingdi yunchuan
+                shanyin datong_datong guangling huairen hunyuan zhongling feihu lingqiu shenwu shanyang_yingzhou tiancheng baideng jincheng yulin_datong lingxian_shanxi yunchuan
                 xihe jiexiu pingyao xiaoyi heshun yushe liaoshan
                 shangdang huguan licheng_luan lucheng_luan qingyang_luan tunliu xiangyuan zhangzi
                 jishi_anze daning fenxi fushan hejin hongtong huoyi jiangxian jishan jizhou linfen lingshi linjin pinglu puxian quwo ruicheng shilou wanquan wenxi xiaxian taiping_jiangzhou xiangning yuanqu zhengping xichuan_xizhou yicheng_pingyang yonghe hedong yueyang_anze xiexian tongdi qinyuan wuxiang
@@ -50027,7 +50030,7 @@ countries = {
         KHA = {
             # Kharchin Mongols
             own_control_core = {
-                daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou pingdisonglin enhua yingchang dongliangting shangdu chagannur huanzhou baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying gaoyuan baochang fuzhou weining zhongdu
+                daning_pingquan huihe hezhong naiman pingquan wuping_daning fushu xingzhong xiankang lizhou longshan chuanzhou shenshui quanning songzhou pingdisonglin enhua yingchang dongliangting shangdu chagannur huanzhou baitan yixingzhou kuanhe_xingzhou niushan limin taipingzhuang liuyuan xiabancheng zhangsanying gaoyuan baochang fuzhou zhongdu
                 fuxin yizhou_jinzhou yizhou_jurchen ningchang tongliao
             }
 
