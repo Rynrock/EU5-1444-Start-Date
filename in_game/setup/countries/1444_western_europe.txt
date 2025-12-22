@@ -56,3 +56,11 @@ TOI = {
     culture_definition = picard
     religion_definition = catholic
 }
+
+ASU = {
+    #Asturias
+    color = rgb { 104 173 230 }
+
+    culture_definition = leonese
+    religion_definition = catholic
+}

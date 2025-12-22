@@ -237,6 +237,7 @@ diplomacy_manager = {
 
     #-------Iberia-------
 
+    dependency = { first = CAS second = ASU subject_type = vassal }
 
     scripted_oneway = { first = ARA second = ANR type = guarantee }
     scripted_oneway = { first = FRA second = ANR type = guarantee }

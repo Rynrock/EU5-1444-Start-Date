@@ -13571,12 +13571,12 @@ countries = {
         CRO = {
             own_control_core = {
                 kaseg knin novigrad crikvenica senj
-                bihac krk makarska srb sinj otocac
+                bihac krk srb sinj otocac
                 slunj
                 rijeka
             }
             our_cores_conquered_by_others = {
-                zadar split sibenik
+                zadar split sibenik makarska
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
@@ -13978,7 +13978,7 @@ countries = {
                 lugo monforte_de_lemos navia_de_suarna sarria villalba
                 ourense barco_de_valdeorras ginzo_de_limia monterrey ribadavia viana_bolo
                 santiago_compostela finisterre lalin mellid noya pontevedra tuy
-                oviedo aviles cangas castropol llanes mieres tineo villaviciosa
+                tineo
                 leon astorga castrocalbon mansilla ponferrada riano sahagun villablino villafranca_bierzo
                 salamanca alba_de_tormes bejar ciudad_rodrigo coria ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes
                 zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
@@ -14252,6 +14252,49 @@ countries = {
 
             country_rank = rank_kingdom
             capital = leon
+        }
+
+        #Asturias
+        ASU = {
+            own_control_core = {
+                oviedo aviles castropol villaviciosa cangas llanes mieres #Asturias
+            }
+
+            starting_technology_level = 3
+            include = "expl_mediterranean"
+            include = "expl_silk_road_west"
+            include = "expl_silk_road_center"
+            include = "expl_silk_road_east"
+            include = "expl_indian_trade_route"
+            include = "catholic_monarchy"
+            government = {
+                type = monarchy
+
+                ruler_term = { character = lon_pelagio_asturias start_date = 718.9.8 end_date = 737.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_favila_asturias start_date = 737.1.1 end_date = 739.1.1 regnal_number = 1 }
+
+                ruler_term = { character = lon_alfonso_i_asturias start_date = 739.1.1 end_date = 757.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_fruela_i_asturias start_date = 757.1.1 end_date = 768.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_aurelio_asturias start_date = 768.1.1 end_date = 774.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_silo_asturias start_date = 774.1.1 end_date = 783.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_ii_asturias start_date = 783.1.1 end_date = 783.6.1 regnal_number = 2 }
+                ruler_term = { character = lon_mauregato_asturias start_date = 783.6.1 end_date = 789.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_bermudo_i_asturias start_date = 789.1.1 end_date = 791.1.1 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_ii_asturias start_date = 791.1.1 end_date = 842.3.20 regnal_number = 2 }
+                ruler_term = { character = lon_ramiro_i_asturias start_date = 842.3.20 end_date = 850.2.1 regnal_number = 1 }
+                ruler_term = { character = lon_ordono_i_asturias start_date = 850.2.1 end_date = 866.5.27 regnal_number = 1 }
+                ruler_term = { character = lon_alfonso_iii_asturias start_date = 866.5.27 end_date = 910.1.1 regnal_number = 3 }
+                ruler_term = {
+                    character = lon_alfonso_iii_asturias start_date = 910.1.1 end_date = 910.12.20 regnal_number = 3
+                    character = lon_garcia_i_leon start_date = 910.1.1 end_date = 910.12.20 regnal_number = 1
+                }
+
+                regnal_numbers = {
+                }
+            }
+
+            country_rank = rank_duchy
+            capital = oviedo
         }
 
         GLC = {
@@ -18737,7 +18780,7 @@ countries = {
             #Travunija
             own_control_core = {
                 trebinje gacko mostar nevesinje drijeva metkovic
-                livno ustikolina konjic glamoc
+                livno ustikolina konjic glamoc makarska
             }
             starting_technology_level = 3
             include = "expl_mediterranean"
