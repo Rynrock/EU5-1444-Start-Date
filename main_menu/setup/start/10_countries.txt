@@ -4858,7 +4858,7 @@ countries = {
         DEN = {
             # Denbigh Marcher Lordship
             include = "catholic_monarchy_english_lordship_welsh_marcher_lord"
-            own_control_core = {
+            our_cores_conquered_by_others = {
                 denbigh
             }
             capital = denbigh
@@ -4926,10 +4926,6 @@ countries = {
                 chester macclesfield nantwich
             }
 
-            own_control_conquered = {
-                flint
-            }
-
             include = "catholic_monarchy_english_lordship"
             include = "expl_western_europe"
 
@@ -4955,12 +4951,13 @@ countries = {
                 aberystwyth anglesey cardigan carnarvon harlech conwy carmarthen penllyn
                 monmouth
                 kidwelly
+                flint denbigh
             }
             our_cores_conquered_by_others = {
                 # Earldom of Chester
 
                 # Marcher Lordships
-                brecknock cardiff caerphilly swansea monmouth montgomery builth denbigh llangollen ewyas kidwelly machynlleth radnor
+                brecknock cardiff caerphilly swansea montgomery builth llangollen ewyas machynlleth radnor
             }
 
             include = "catholic_monarchy_english_lordship"
@@ -17925,6 +17922,33 @@ countries = {
 
             country_rank = rank_duchy
             capital = liege
+        }
+
+        #Tournai
+        TOI = {
+            own_control_core = {
+                tournai
+            }
+
+            starting_technology_level = 3
+            include = "expl_western_europe"
+            include = "catholic_bishopric_no_coast"
+            government = {
+                reforms = {
+                    prince_bishopric_reform
+                }
+
+                spiritualist_vs_humanist = -70
+                aristocracy_vs_plutocracy = -20
+                land_vs_naval = -20
+            }
+
+            tolerated_cultures = {
+                lower_franconian
+            }
+
+            country_rank = rank_county
+            capital = tournai
         }
 
         #Bouillon

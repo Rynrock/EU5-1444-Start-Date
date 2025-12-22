@@ -21,7 +21,6 @@ diplomacy_manager = {
     dependency = { first = WLS second = EWY subject_type = vassal }
     dependency = { first = WLS second = CMS subject_type = vassal }
     dependency = { first = WLS second = PMB subject_type = vassal }
-    dependency = { first = WLS second = DEN subject_type = vassal }
 
     #dependency = { first = PLE second = CLR subject_type = vassal }
     #dependency = { first = PLE second = MYO subject_type = vassal }
@@ -189,6 +188,8 @@ diplomacy_manager = {
     dependency = { first = FRA second = NRB subject_type = vassal }
     dependency = { first = FRA second = RCC subject_type = vassal }
     dependency = { first = FRA second = VLS subject_type = vassal }
+
+    dependency = { first = FRA second = TOI subject_type = vassal }
 
 
     #Vassals of vassals
