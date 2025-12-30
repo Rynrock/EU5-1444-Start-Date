@@ -7545,7 +7545,7 @@ countries = {
             }
         }
 
-	#SND - Sindh
+	    #SND - Sindh
 	    SND = { #https://en.wikipedia.org/wiki/Sindh
 		    own_control_core = {
 			    thatta sonda manora muhammad_tur laribandar
