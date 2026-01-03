@@ -107552,7 +107552,7 @@ adm = 31 dip = 34 mil = 24
         death_date = 1437.2.21
         birth = dunfermline
         dynasty = stewart_dynasty
-        father = sco_robert_iii
+        father = sco_robert_iii_stewart
         tag = SCO
     }
 

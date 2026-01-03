@@ -42,7 +42,7 @@ JAG = {
     #Jagoldai
     color = rgb { 116  107  140 }
 
-    culture_definition = turkoman_culture
+    culture_definition = mishar
     religion_definition = sunni
 }
 

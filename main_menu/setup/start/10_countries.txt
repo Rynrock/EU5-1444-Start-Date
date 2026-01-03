@@ -15048,7 +15048,7 @@ countries = {
             include = "expl_western_europe"
             include = "catholic_monarchy"
             government = {
-                ruler = random
+                ruler = bri_francis_i_of_brittany
 
                 ruler_term = { character = bri_guy_thouars start_date = 1199.9.1 end_date = 1201.9.1 regnal_number = 1 } # As Marital Co-Ruler
 
@@ -15102,9 +15102,6 @@ countries = {
                 capital_economy_vs_traditional_economy = 75
                 individualism_vs_communalism = -50
                 outward_vs_inward = -10
-                reforms = {
-                    french_ducal_vassal_reform
-                }
 
             }
             court_language = angevin_dialect
@@ -15394,7 +15391,8 @@ countries = {
                 active_regent = auv_margaret_evreux
                 start_regency_date = 1332.8.6
                 end_regency_date = 1344.5.8
-                heir = auv_jeanne_auvergne
+                ruler = auv_bertrand_v_la_tour
+                heir = auv_bertrand_vi_la_tour
                 reforms = {
                     french_appanage_reform
                 }
@@ -15547,7 +15545,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = nav_philip_iii_evreux
+                ruler = ang_jean_v_de_armagnac
+                heir = ang_charles_de_armagnac
 
                 ruler_term = { character = mrc_hugues_xi_lusignan start_date = 1246.6.4 end_date = 1250.4.6 regnal_number = 1 }
                 ruler_term = { character = mrc_hugues_xii_lusignan start_date = 1250.4.6 end_date = 1270.8.25 regnal_number = 2 }
@@ -15557,7 +15556,7 @@ countries = {
 
                 # Annexed to France 1314-1336
 
-                ruler_term = { character = nav_philip_iii_evreux start_date = 1336.3.14 regnal_number = 1 }
+                ruler_term = { character = nav_philip_iii_evreux start_date = 1336.3.14 end_date = 1362.6.14 regnal_number = 1 }
 
                 regnal_numbers = {
                     #Turpion = 1
@@ -15603,7 +15602,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = bou_louis_i_bourbon
+                ruler = bou_charles_i_de_bourbon
+                heir = bou_john_ii_de_bourbon
                 reforms = {
                     french_appanage_reform
                 }
@@ -15615,7 +15615,7 @@ countries = {
 
                 ruler_term = { character = bou_beatrice_burgundian start_date = 1287.1.1 end_date = 1310.10.1 regnal_number = 1 }
 
-                ruler_term = { character = bou_louis_i_bourbon start_date = 1310.10.1 regnal_number = 1 }
+                ruler_term = { character = bou_louis_i_bourbon start_date = 1310.10.1 end_date = 1341.1.1 regnal_number = 1 }
 
                 regnal_numbers = {
                     name_louis = 1
@@ -15785,7 +15785,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = san_louis_ii_sancerre
+                ruler = san_jean_v_de_bueil
+                heir = san_antoine_de_bueil
 
                 ruler_term = { character = fra_roger_blois start_date = 986.1.1 end_date = 1015.1.1 regnal_number = 1 }
                 ruler_term = { character = chp_eudes_i_blois start_date = 1015.1.1 end_date = 1037.11.15 regnal_number = 1 }
@@ -15798,7 +15799,7 @@ countries = {
                 ruler_term = { character = san_jean_i_sancerre start_date = 1267.1.1 end_date = 1284.5.22 regnal_number = 1 }
                 ruler_term = { character = san_etienne_ii_sancerre start_date = 1284.5.22 end_date = 1306.5.16 regnal_number = 2 }
                 ruler_term = { character = san_jean_ii_sancerre start_date = 1306.5.16 end_date = 1327.1.1 regnal_number = 2 }
-                ruler_term = { character = san_louis_ii_sancerre start_date = 1327.1.1 regnal_number = 2 }
+                ruler_term = { character = san_louis_ii_sancerre start_date = 1327.1.1 end_date = 1363.11.21 regnal_number = 2 }
 
                 regnal_numbers = {
                     name_roger = 1
@@ -15829,7 +15830,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = foi_gaston_ii_foix
+                ruler = foi_gaston_iv_de_foix
+                heir = nrb_gaston_de_foix
 
                 ruler_term = { character = foi_bernard_roger_foix start_date = 1012.1.1 end_date = 1034.1.1 regnal_number = 1 }
                 ruler_term = { character = foi_roger_i_foix start_date = 1034.1.1 end_date = 1064.1.1 regnal_number = 1 }
@@ -15962,7 +15964,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = amg_jean_i_armagnac
+                ruler = amg_bertrand_vi_la_tour
+                heir = amg_jacques_de_armagnac
 
                 ruler_term = { character = amg_bernard_i_armagnac start_date = 965.1.1 end_date = 995.1.1 regnal_number = 1 }
                 ruler_term = { character = amg_geraud_i_armagnac start_date = 995.1.1 end_date = 1020.1.1 regnal_number = 1 }
@@ -15988,7 +15991,7 @@ countries = {
 
                 ruler_term = { character = amg_geraud_vi_armagnac start_date = 1256.1.1 end_date = 1285.1.1 regnal_number = 6 }
                 ruler_term = { character = amg_bernard_vi_armagnac start_date = 1285.1.1 end_date = 1319.1.1 regnal_number = 6 }
-                ruler_term = { character = amg_jean_i_armagnac start_date = 1319.1.1 regnal_number = 1 }
+                ruler_term = { character = amg_jean_i_armagnac start_date = 1319.1.1 end_date = 1373.6.22 regnal_number = 1 }
 
                 regnal_numbers = {
                     name_bernard = 6
@@ -16065,7 +16068,8 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = vdm_bouchard_vi_montoire
+                ruler = vdm_louis_i_de_bourbon_vendome
+                heir = vdm_jean_viii_de_bourbon_vendome
                 reforms = {
                     french_appanage_reform
                 }
@@ -16074,7 +16078,7 @@ countries = {
                 ruler_term = { character = vdm_pierre_i_montoire start_date = 1240.1.1 end_date = 1249.3.25 regnal_number = 1 }
                 ruler_term = { character = vdm_bouchard_v_montoire start_date = 1249.3.25 end_date = 1271.5.15 regnal_number = 5 }
                 ruler_term = { character = vdm_jean_v_montoire start_date = 1271.5.15 end_date = 1315.1.1 regnal_number = 5 }
-                ruler_term = { character = vdm_bouchard_vi_montoire start_date = 1315.1.1 regnal_number = 6 }
+                ruler_term = { character = vdm_bouchard_vi_montoire start_date = 1315.1.1 end_date = 1350.7.26 regnal_number = 6 }
 
                 regnal_numbers = {
                     name_burchard = 6
@@ -16394,6 +16398,7 @@ countries = {
             include = "catholic_monarchy_no_coast"
             government = {
                 type = monarchy
+                ruler = alr_charles_ii_d_albret
                 reforms = {
                     french_ducal_vassal_reform
                 }
@@ -16473,9 +16478,7 @@ countries = {
                 heir_selection = semi_salic_law
                 regency = consort_regency
                 active_regent = alb_agnes_perigord
-                start_regency_date = 1336.1.1
-                end_regency_date = 1354.5.1
-                heir = com_jean_comminges
+                ruler = com_mathieu_de_foix_comminges
 
                 ruler_term = { character = com_arnaud_i_comminges start_date = 949.1.1 end_date = 957.1.1 regnal_number = 1 }
                 ruler_term = { character = com_roger_i_comminges start_date = 957.1.1 end_date = 979.1.1 regnal_number = 1 }
@@ -16628,7 +16631,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = per_roger_bernard_perigord
+                ruler = per_charles_i_de_perigord
 
                 ruler_term = {
                     character = per_boson_i_perigord start_date = 975.1.1 end_date = 979.1.1 regnal_number = 1
@@ -16655,7 +16658,7 @@ countries = {
                 ruler_term = { character = per_archambaud_iii_perigord start_date = 1251.1.1 end_date = 1294.1.1 regnal_number = 3 }
                 ruler_term = { character = per_helie_ix_perigord start_date = 1294.1.1 end_date = 1311.1.1 regnal_number = 9 }
                 ruler_term = { character = per_archambaud_iv_perigord start_date = 1311.1.1 end_date = 1334.1.1 regnal_number = 4 }
-                ruler_term = { character = per_roger_bernard_perigord start_date = 1334.1.1 regnal_number = 1 }
+                ruler_term = { character = per_roger_bernard_perigord start_date = 1334.1.1 end_date = 1368.10.14 regnal_number = 1 }
 
                 regnal_numbers = {
                     #Émenon = 1
@@ -16696,7 +16699,7 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = ton_jeanne_capet
+                ruler = ton_louis_i_de_chalon_tonnerre
                 reforms = {
                     french_ducal_vassal_reform
                 }
@@ -16721,7 +16724,7 @@ countries = {
                 ruler_term = { character = ton_marguerite_i_burgundian start_date = 1262.1.1 end_date = 1308.9.4 regnal_number = 1 }
 
                 ruler_term = { character = aux_jean_ii_chalon start_date = 1308.9.4 end_date = 1335.1.1 regnal_number = 2 }
-                ruler_term = { character = ton_jeanne_capet start_date = 1335.1.1 regnal_number = 1 }
+                ruler_term = { character = ton_jeanne_capet start_date = 1335.1.1 end_date = 1365.4.9 regnal_number = 1 }
 
                 regnal_numbers = {
                     name_milon = 5
@@ -17741,14 +17744,15 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = nrb_amalric_iii_lara
+                ruler = nrb_jeanne_de_foix
+                heir = nrb_gaston_iv_de_foix
 
                 ruler_term = { character = cas_pedro_manrique_lara start_date = 1192.1.1 end_date = 1202.1.1 regnal_number = 2 }
                 ruler_term = { character = nrb_amalric_i_lara start_date = 1202.1.1 end_date = 1270.12.1 regnal_number = 1 }
                 ruler_term = { character = nrb_aimeric_iv_lara start_date = 1270.12.1 end_date = 1298.10.1 regnal_number = 4 }
                 ruler_term = { character = nrb_amalric_ii_lara start_date = 1298.10.1 end_date = 1328.6.19 regnal_number = 2 }
                 ruler_term = { character = nrb_aimeric_v_lara start_date = 1328.6.19 end_date = 1336.6.1 regnal_number = 5 }
-                ruler_term = { character = nrb_amalric_iii_lara start_date = 1336.6.1 regnal_number = 3 }
+                ruler_term = { character = nrb_amalric_iii_lara start_date = 1336.6.1 end_date = 1371.8.20 regnal_number = 3 }
 
                 regnal_numbers = {
                     #Lindoin = 1
@@ -18398,8 +18402,8 @@ countries = {
             include = "german_principality"
             government = {
 
-                ruler = hab_ladislaus_posthumous_habsburg
                 active_regent = hab_frederick_iii_kaiser_habsburg
+                heir = hab_ladislaus_posthumous_habsburg
                 start_regency_date = 1440.2.2
 
                 ruler_term = { character = hab_rudolf_i_habsburg start_date = 1276.11.1 end_date = 1282.12.1 regnal_number = 1 }
@@ -52825,7 +52829,9 @@ countries = {
                 thuan_chau muong_cha
                 muong_luan son_la mang_viet lai_chau thuy_vi van_ban quy_hoa
             }
-            own_control_integrated = { }
+            own_control_integrated = {
+                dien_ban simhapura
+            }
             our_cores_conquered_by_others = { }
             include = "vietnamese_champa_monarchy"
             government = {
