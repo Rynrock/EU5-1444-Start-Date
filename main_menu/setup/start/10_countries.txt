@@ -11298,7 +11298,7 @@ countries = {
             country_rank = rank_kingdom
             government = {
 
-                ruler = pap_benedetto_xii
+                ruler = pap_eugenio_iv
 
                 ruler_term = { character = pap_callisto_ii start_date = 1119.2.2 end_date = 1124.12.13 regnal_number = 2 regnal_name = name_callisto }
                 ruler_term = { character = pap_celestino_iii start_date = 1191.3.30 end_date = 1198.1.8 regnal_number = 3 regnal_name = name_celestine }
@@ -11318,33 +11318,39 @@ countries = {
                 ruler_term = { character = pap_gregorio_xi start_date = 1370.12.30 end_date = 1378.3.27 regnal_number = 11 regnal_name = name_gregory }
                 ruler_term = { character = pap_urbano_vi start_date = 1378.4.8 end_date = 1389.10.15 regnal_number = 6 regnal_name = name_urban }
 
+                ruler_term = { character = pap_bonifacio_ix start_date = 1389.11.2 end_date = 1404.10.1 regnal_number = 9 regnal_name = name_boniface }
+                ruler_term = { character = pap_innocenzo_vii start_date = 1404.10.17 end_date = 1406.11.6 regnal_number = 7 regnal_name = name_innocent }
                 ruler_term = { character = pap_gregorio_xii start_date = 1406.11.30 end_date = 1415.7.4 regnal_number = 12 regnal_name = name_gregory }
+                ruler_term = { character = pap_alexandros_v_pisa start_date = 1409.6.30 end_date = 1410.5.3 regnal_number = 5 regnal_name = name_alexander }
+                ruler_term = { character = pap_giovanni_xxiii_pisa start_date = 1410.5.25 end_date = 1415.5.29 regnal_number = 23 regnal_name = name_john }
+                ruler_term = { character = pap_martino_v start_date = 1417.11.11 end_date = 1431.2.20 regnal_number = 5 regnal_name = name_martin }
+                ruler_term = { character = pap_eugenio_iv start_date = 1431.3.11 regnal_number = 4 regnal_name = name_eugene }
 
                 regnal_numbers = {
                     name_adrian = 5
                     name_agapetus = 2
-                    name_alexander = 4
+                    name_alexander = 5
                     name_anastasius = 4
                     name_benedict = 12
-                    name_boniface = 8
+                    name_boniface = 9
                     name_callisto = 2
                     name_celestine = 5
-                    name_clement = 5
+                    name_clement = 6
                     name_damasus = 2
-                    name_eugene = 3
+                    name_eugene = 4
                     name_felix = 4
                     name_formosus = 1
                     name_gelasius = 2
-                    name_gregory = 10
+                    name_gregory = 12
                     name_honorius = 4
-                    name_innocent = 5
-                    name_john = 22
+                    name_innocent = 7
+                    name_john = 23
                     name_julius = 1
                     name_lando = 1
                     name_leon = 9
                     name_lucius = 3
                     name_marinus = 2
-                    name_martin = 4
+                    name_martin = 5
                     name_nicholas = 4
                     name_paschal = 2
                     name_paul = 1
@@ -11355,7 +11361,7 @@ countries = {
                     name_sixtus = 3
                     name_stephen = 9
                     name_theodore = 2
-                    name_urban = 4
+                    name_urban = 6
                     name_valentine = 1
                     name_victor = 3
                 }
@@ -13232,7 +13238,8 @@ countries = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
 
-                ruler = random
+                ruler = byz_ioannes_viii_palaiologos
+                heir = byz_constantine_xi_palaiologos
 
                 ruler_term = { character = byz_isaakios_i_komnenos start_date = 1057.6.8 end_date = 1059.11.22 regnal_number = 1 }
 
@@ -13283,6 +13290,16 @@ countries = {
                 }
                 ruler_term = { character = byz_andronikos_ii_palaiologos start_date = 1320.10.12 end_date = 1328.5.24 regnal_number = 2 }
                 ruler_term = { character = byz_andronikos_iii_palaiologos start_date = 1328.5.24 end_date = 1341.6.15 regnal_number = 3 }
+                ruler_term = { character = byz_john_v_palaiologos start_date = 1341.6.15 end_date = 1376.8.12 regnal_number = 5 }
+                ruler_term = { character = byz_john_kantakouzenos start_date = 1347.2.8 end_date = 1354.12.10 regnal_number = 6 }
+                ruler_term = { character = byz_matthaios_kantakouzenos start_date = 1353.4.1 end_date = 1357.12.10 regnal_number = 1 }
+                ruler_term = { character = byz_andronikos_iv_palaiologos start_date = 1376.8.12 end_date = 1379.7.1 regnal_number = 4 }
+                ruler_term = { character = byz_john_v_palaiologos start_date = 1379.7.1 end_date = 1390.4.14 regnal_number = 5 }
+                ruler_term = { character = byz_andronikos_iv_palaiologos start_date = 1381.5.1 end_date = 1385.6.1 regnal_number = 4 }
+                ruler_term = { character = byz_ioannes_vii_palaiologos start_date = 1385.1.1 end_date = 1408.9.22 regnal_number = 7 }
+                ruler_term = { character = byz_andronikos_v_palaiologos start_date = 1403.1.1 end_date = 1407.1.1 regnal_number = 5 }
+                ruler_term = { character = byz_manuel_ii_palaiologos start_date = 1391.2.16 end_date = 1425.7.21 regnal_number = 2 }
+                ruler_term = { character = byz_ioannes_viii_palaiologos start_date = 1425.7.21 regnal_number = 8 }
 
                 centralization_vs_decentralization = 20
                 traditionalist_vs_innovative = -60
@@ -14106,7 +14123,7 @@ countries = {
                 ruler_term = { character = ara_peter_iv_arago start_date = 1336.1.24 end_date = 1386.1.6 regnal_number = 4 }
                 ruler_term = { character = ara_john_i_barcelona start_date = 1387.1.6 end_date = 1396.5.19 regnal_number = 4 }
                 ruler_term = { character = ara_martin_i_barcelona start_date = 1396.5.19 end_date = 1410.5.31 regnal_number = 4 }
-                ruler_term = { character = ara_fernando_i_trastamara start_date = 1410.5.31 end_date = 1416.4.2 regnal_number = 4 }
+                ruler_term = { character = ara_fernando_i_trastamara start_date = 1412.6.25 end_date = 1416.4.2 regnal_number = 4 }
                 ruler_term = { character = ara_alfons_v_trastamara start_date = 1416.4.2 regnal_number = 4 }
 
                 regnal_numbers = {
@@ -14372,7 +14389,9 @@ countries = {
             government = {
                 type = monarchy
                 heir_selection = cognatic_primogeniture
-                ruler = por_afonso_iv_portugal
+                active_regent = por_pedro_i_avis_coimbra
+                start_regency_date = 1439.1.1
+                heir = por_afonso_v_avis
 
                 ruler_term = { character = lon_ramiro_ii_leon start_date = 926.2.12 end_date = 931.11.6 regnal_number = 0 }
 
@@ -14382,12 +14401,23 @@ countries = {
                 ruler_term = { character = por_sancho_ii_portugal start_date = 1223.3.25 end_date = 1247.12.4 regnal_number = 2 }
                 ruler_term = { character = por_afonso_iii_portugal start_date = 1247.12.4 end_date = 1279.2.16 regnal_number = 3 }
                 ruler_term = { character = por_dinis_i_portugal start_date = 1279.2.16 end_date = 1325.1.7 regnal_number = 1 }
-                ruler_term = { character = por_afonso_iv_portugal start_date = 1325.1.7 regnal_number = 4 }
+                ruler_term = { character = por_afonso_iv_portugal start_date = 1325.1.7 end_date = 1357.5.28 regnal_number = 4 }
+
+                ruler_term = { character = por_peter_i_portugal start_date = 1357.5.28 end_date = 1367.1.18 regnal_number = 1 }
+                ruler_term = { character = por_fernando_i_portugal start_date = 1367.1.18 end_date = 1383.10.22 regnal_number = 1 }
+                ruler_term = { character = cas_beatriz_portugal start_date = 1383.10.22 end_date = 1385.4.6 }
+                ruler_term = { character = por_joao_i_avis start_date = 1385.4.6 end_date = 1433.8.14 regnal_number = 1 }
+                ruler_term = { character = por_duarte_i_avis start_date = 1433.8.14 end_date = 1438.9.9 regnal_number = 1 }
+                ruler_term = { character = por_afonso_v_avis start_date = 1438.9.9 regnal_number = 5 }
 
                 regnal_numbers = {
-                    name_alphonse = 4
+                    name_alphonse = 5
                     name_sancho = 2
                     name_dennis = 1
+                    name_peter = 1
+                    name_john = 2
+                    name_ferdinand = 1
+                    name_edward = 1
                 }
 
                 reforms = {
@@ -52755,8 +52785,8 @@ countries = {
                 degar_culture
                 sedang_culture
             }
-            country_rank = rank_empire
-            capital = angkor
+            country_rank = rank_kingdom
+            capital = phnom_penh
         }
 
         CHA = {

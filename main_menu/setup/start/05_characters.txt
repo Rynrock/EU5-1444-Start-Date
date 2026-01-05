@@ -6797,7 +6797,7 @@ character_db={
         religion = orthodox
         adm = 35 dip = 72 mil = 36
         birth_date = 1297.3.25
-        death_date = 1363.10.5
+        death_date = 1341.6.15
         birth = constantinople
         father = byz_michael_ix_palaiologos
         mother = byz_rita_armenia
@@ -6817,16 +6817,14 @@ character_db={
     byz_john_v_palaiologos = { #https://en.wikipedia.org/wiki/John_V_Palaiologos
         first_name = { name = name_john }
         culture = greek_culture
-        religion = orthodox
-        adm = 1 dip = 1 mil = 1
+        religion = catholic
         birth_date = 1332.6.18
-        death_date = 1396.6.10
+        death_date = 1391.2.16
         birth = kirklareli
         father = byz_andronikos_iii_palaiologos
         mother = byz_anna_of_savoy
         dynasty = palaiologos_dynasty
         tag = BYZ
-        child_trait = child_idiot
     }
 
     
@@ -6835,9 +6833,8 @@ character_db={
         first_name = { name = name_michael }
         culture = greek_culture
         religion = orthodox
-        adm = 1 dip = 1 mil = 0
         birth_date = 1337.1.1
-        death_date = 1390.3.20
+        death_date = 1353.1.1
         birth = constantinople
         father = byz_andronikos_iii_palaiologos
         mother = byz_anna_of_savoy
@@ -7011,7 +7008,7 @@ character_db={
         birth = casale
         father = mfa_teodoro_i_palaiologos
         mother = mfa_argentina_spinola
-        dynasty = palaiologos_dynasty # Should be dynasty = palaiologos_monferrrato_dynasty
+        dynasty = palaiologos_dynasty # Should be dynasty = palaiologos_monferrato_dynasty
         tag = MFA
     }
 
@@ -7181,7 +7178,7 @@ character_db={
         religion = orthodox
         adm = 68 dip = 100 mil = 34
         birth_date = 1292.1.1
-        death_date = 1362.4.19
+        death_date = 1383.6.15
         birth = constantinople
         father = byz_michael_kantakouzenos
         mother = byz_theodora_palaiologina_kantakouzene
@@ -7196,7 +7193,7 @@ character_db={
         culture = greek_culture
         religion = orthodox
         birth_date = 1300.1.1
-        death_date = 1360.12.7
+        death_date = 1370.1.1
         female = yes
         birth = constantinople
         father = byz_andronikos_asen
@@ -7212,7 +7209,7 @@ character_db={
         culture = greek_culture
         religion = orthodox
         birth_date = 1325.1.1
-        death_date = 1396.8.7
+        death_date = 1383.6.1
         birth = constantinople
         father = byz_john_kantakouzenos
         mother = byz_irene_asen
@@ -7286,16 +7283,14 @@ character_db={
         first_name = { name = name_helen }
         culture = greek_culture
         religion = orthodox
-        adm = 3 dip = 4 mil = 1
         female = yes
         birth_date = 1333.1.1
-        death_date = 1401.1.3
+        death_date = 1396.12.10
         birth = constantinople
         father = byz_john_kantakouzenos
         mother = byz_irene_asen
         dynasty = kantakouzenos_dynasty
         tag = BYZ
-        child_trait = child_gregarious
     }
 
     
@@ -7783,7 +7778,7 @@ character_db={
         culture = bulgarian
         religion = orthodox
         birth_date = 1322.1.1
-        death_date = 1380.1.18
+        death_date = 1355.1.1
         birth = lovech
         father = bul_ivan_alexander
         mother = bul_teodora_of_wallachia
@@ -7799,7 +7794,7 @@ character_db={
         religion = orthodox 
         female = yes
         birth_date = 1327.1.1
-        death_date = 1383.2.5
+        death_date = 1376.1.1
         birth = edirne
         father = byz_andronikos_iii_palaiologos
         mother = byz_anna_of_savoy
@@ -7814,7 +7809,7 @@ character_db={
         culture = bulgarian
         religion = orthodox
         birth_date = 1324.1.1
-        death_date = 1394.12.15
+        death_date = 1397.1.1
         birth = lovech
         father = bul_ivan_alexander
         mother = bul_teodora_of_wallachia
@@ -12693,12 +12688,13 @@ character_db={
     # Son & Heir of the King of Portugal
     por_pedro_i_portugal = {    
         first_name = { name = name_peter }
+        nickname = { name = Justicier }
         culture = portuguese
         religion = catholic
         estate = nobles_estate
         adm = 47 dip = 36 mil = 34
         birth_date = 1320.4.8
-        death_date = 1392.6.22
+        death_date = 1367.1.18
         birth = coimbra
         father = por_afonso_iv_portugal
         mother = por_beatriz_portugal
@@ -12713,9 +12709,10 @@ character_db={
         religion = catholic
         estate = nobles_estate
         female = yes
-        birth_date = 1329.2.3
-        death_date = 1392.8.9
+        birth_date = 1328.2.3
+        death_date = 1348.10.30
         birth = lisbon # Portugal
+        spouse = ara_peter_iv_arago
         father = por_afonso_iv_portugal
         mother = por_beatriz_portugal
         dynasty = burgundy_portuguese_dynasty
@@ -12732,7 +12729,7 @@ character_db={
         adm = 40 dip = 50 mil = 20
         female = yes
         birth_date = 1313.2.9
-        death_date = 1379.2.16
+        death_date = 1357.1.18
         birth = lisbon # Unknown in Portugal
         father = por_afonso_iv_portugal
         mother = por_beatriz_portugal
@@ -25692,7 +25689,7 @@ character_db={
         estate = nobles_estate
         female = yes
         birth_date = 1306.1.1
-        death_date = 1354.9.9
+        death_date = 1365.1.1
         birth = chambery
         father = sav_amedee_v_savoy
         mother = sav_maria_van_brabant
@@ -27460,8 +27457,8 @@ character_db={
         culture = neapolitan
         religion = catholic
         estate = clergy_estate
-        birth_date = 1336.1.1
-        death_date = 1362.9.12
+        birth_date = 1339.1.1
+        death_date = 1406.11.6
         birth = aquila
         tag = NAP
     }
@@ -50788,7 +50785,7 @@ adm = 31 dip = 34 mil = 24
         estate = clergy_estate
         adm = 32 dip = 30 mil = 5
         birth_date = 1328.11.25
-        death_date = 1390.5.3
+        death_date = 1423.5.23
         birth = zaragoza
         #father = Juan Martínez de Luna
         #mother = Teresa Pérez de Gotor
@@ -76460,7 +76457,7 @@ adm = 31 dip = 34 mil = 24
         culture = greek_culture
         religion = orthodox
         birth_date = 1302.1.1 # Unknown
-        death_date = 1371.1.8
+        death_date = 1340.4.6
         birth = trebizond
         father = tre_alexios_ii_komnenos
         mother = sme_jiajak
@@ -76477,7 +76474,7 @@ adm = 31 dip = 34 mil = 24
         adm = 39 dip = 53 mil = 27
         female = yes
         birth_date = 1315.1.1
-        death_date = 1380.9.20
+        death_date = 1350.1.1
         birth = constantinople
         father = byz_andronikos_iii_palaiologos
         #mother = A Mistress
@@ -76496,20 +76493,20 @@ adm = 31 dip = 34 mil = 24
         adm = 42 dip = 24 mil = 25
         female = yes
         birth_date = 1307.1.1
-        death_date = 1364.9.11
+        death_date = 1386.1.1
         birth = trebizond
         tag = TRE
     }
 
 
-    tre_anna_komnenos = {
-        first_name = { name = name_anna }
+    tre_maria_komnenos = {
+        first_name = { name = name_maria }
         culture = greek_culture
         religion = orthodox
         adm = 15 dip = 15 mil = 8
         female = yes
-        birth_date = 1325.1.1
-        death_date = 1373.11.25
+        birth_date = 1338.1.1
+        death_date = 1378.1.1
         birth = trebizond
         father = tre_basil_komnenos
         mother = tre_irene_trebizond
@@ -76522,8 +76519,8 @@ adm = 31 dip = 34 mil = 24
         first_name = { name = name_alexis }
         culture = greek_culture
         religion = orthodox
-        birth_date = 1327.1.1
-        death_date = 1381.7.15
+        birth_date = 1337.1.1
+        death_date = 1349.1.1
         birth = trebizond
         father = tre_basil_komnenos
         mother = tre_irene_trebizond
@@ -76538,7 +76535,7 @@ adm = 31 dip = 34 mil = 24
         religion = orthodox
         female = yes
         birth_date = 1335.1.1
-        death_date = 1390.7.12
+        death_date = 1366.1.1
         birth = trebizond
         father = tre_basil_komnenos
         mother = tre_irene_palaiologos
@@ -106523,15 +106520,16 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_philippa_of_lancaster = {
+    por_philippa_lancaster = {
         first_name = { name = name_philippa }
         culture = english
         religion = catholic
         estate = nobles_estate
         female = yes
         birth_date = 1360.3.31
-        birth = leicester
         death_date = 1415.7.19
+        birth = leicester
+        spouse = por_joao_i_avis
         father = eng_john_of_gaunt
         mother = eng_blanche_of_lancaster
         dynasty = lancaster_dynasty
@@ -108719,7 +108717,7 @@ adm = 31 dip = 34 mil = 24
     }
 
     aus_elisabeth_young_starhemberg = {
-        first_name = { name = name_elisabeth }
+        first_name = { name = name_elizabeth }
         dynasty = hohenzollern_nurnberg
         estate = nobles_estate
         culture = danube_bavarian
@@ -109818,6 +109816,464 @@ adm = 31 dip = 34 mil = 24
         tag = NAP
     }
 
+    ### Portugal
+
+    por_fernando_i_portugal = {
+        first_name = { name = name_ferdinand }
+        nickname = { name = the_handsome }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1334.10.31
+        death_date = 1383.10.22
+        birth = coimbra
+        father = por_pedro_i_portugal
+        dynasty = burgundy_portuguese_dynasty
+        tag = POR   
+    }
+
+    cas_beatriz_portugal = {
+        first_name = { name = name_beatrix }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1373.2.7
+        death_date = 1420.1.1
+        female = yes
+        birth = coimbra
+        spouse = cas_juan_i_trastamara
+        father = por_fernando_i_portugal
+        dynasty = burgundy_portuguese_dynasty
+        tag = CAS        
+    }
+
+    por_fernando_i_avis = {
+        first_name = { name = name_ferdinand }
+        nick_name = { name = Handsome }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1345.10.31
+        death_date = 1383.10.22
+        birth = lisbon
+        father = por_pedro_i_portugal
+        dynasty = burgundy_portuguese_dynasty
+        tag = POR   
+    }
+
+    por_joao_i_avis = {
+        first_name = { name = name_john }
+        nick_name = { name = "of Fond Memory" }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1357.4.11
+        death_date = 1433.8.14
+        birth = lisbon
+        father = por_pedro_i_portugal
+        dynasty = avis_dynasty
+        tag = POR   
+    }
+
+    por_afonso_i_braganca_duke = {
+        first_name = { name = name_alphonse }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1377.8.10
+        birth = estremoz
+        father = por_joao_i_avis
+        dynasty = braganca_dynasty
+        tag = POR
+        timed_modifier = {
+            modifier = "bastard"
+            start_date = 1317.1.1
+            date = 9999.1.1
+            size = 1
+        }         
+    }
+
+    por_afonso_braganca_valenca = {
+        first_name = { name = name_alphonse }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1402.1.1
+        birth = braganca
+        father = por_afonso_i_braganca_duke
+        dynasty = braganca_dynasty
+        tag = POR       
+    }
+
+    por_isabel_braganca_barcelos = {
+        first_name = { name = name_elizabeth }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1402.10.1
+        female = yes
+        birth = barcelos
+        spouse = por_joao_avis_constable
+        father = por_afonso_i_braganca
+        dynasty = braganca_dynasty
+        tag = POR          
+    }
+
+    por_fernando_i_braganca_duke = {
+        first_name = { name = name_ferdinand }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1403.1.1
+        birth = braganca
+        father = por_afonso_i_braganca_duke
+        dynasty = braganca_dynasty
+        tag = POR       
+    }
+
+    por_fernando_ii_braganca_duke = {
+        first_name = { name = name_ferdinand }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1430.1.1
+        birth = braganca
+        father = por_fernando_i_braganca_duke
+        dynasty = braganca_dynasty
+        tag = POR       
+    }
+
+    por_joao_braganca_marquis = {
+        first_name = { name = name_john }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1430.1.1
+        birth = braganca
+        father = por_fernando_i_braganca_duke
+        dynasty = braganca_dynasty
+        tag = POR       
+    }
+
+    por_alvaro_braganca = {
+        first_name = { name = name_alvar }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1440.1.1
+        birth = braganca
+        father = por_fernando_i_braganca_duke
+        dynasty = braganca_dynasty
+        tag = POR       
+    }
+
+    por_duarte_i_avis = {
+        first_name = { name = name_edward }
+        nick_name = { name = Eloquent }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1391.10.31
+        death_date = 1438.9.9
+        birth = viseu
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_leonor_trastamara_portugal = {
+        first_name = { name = name_eleanor }
+        culture = aragonese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1405.1.1
+        female = yes
+        birth = medina_del_campo
+        spouse = por_duarte_i_avis
+        father = ara_fernando_i_trastamara
+        mother = ara_eleanor_of_alburquerque
+        dynasty = trastamara_dynasty
+        tag = POR          
+    }
+
+    por_afonso_v_avis = {
+        first_name = { name = name_alphonse }
+        nick_name = { name = African }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1432.1.15
+        birth = lisbon
+        father = por_duarte_i_avis
+        mother = por_leonor_trastamara_portugal
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_fernando_avis_viseu = {
+        first_name = { name = name_ferdinand }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1433.11.17
+        birth = santarem
+        father = por_duarte_i_avis
+        mother = por_leonor_trastamara_portugal
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    hab_leonor_avis_empress = {
+        first_name = { name = name_eleanor }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1434.9.13
+        female = yes
+        birth = torres_vedras
+        father = por_duarte_i_avis
+        mother = por_leonor_trastamara_portugal
+        dynasty = avis_dynasty
+        tag = POR        
+    }
+
+    por_catarina_avis = {
+        first_name = { name = name_catherine }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1436.11.26
+        female = yes
+        birth = lisbon
+        father = por_duarte_i_avis
+        mother = por_leonor_trastamara_portugal
+        dynasty = avis_dynasty
+        tag = POR        
+    }
+
+    cas_joana_avis = {
+        first_name = { name = name_joanna }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1439.3.31
+        female = yes
+        birth = lisbon
+        father = por_duarte_i_avis
+        mother = por_leonor_trastamara_portugal
+        dynasty = avis_dynasty
+        tag = POR        
+    }
+
+    por_pedro_i_avis_coimbra = {
+        first_name = { name = name_peter }
+        nick_name = { name = "of the Seven Parts of the World" }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1392.12.9
+        birth = lisbon
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_isabel_urgell_coimbra = {
+        first_name = { name = name_elizabeth }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1409.3.12
+        female = yes
+        birth = balaguer
+        spouse = por_pedro_i_avis_coimbra
+        dynasty = barcelona_dynasty
+        tag = POR         
+    }
+
+    por_pedro_ii_avis_coimbra = {
+        first_name = { name = name_peter }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1429.1.1
+        birth = coimbra
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_joao_avis_coimbra = {
+        first_name = { name = name_john }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1431.1.1
+        birth = coimbra
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_isabel_avis_coimbra = {
+        first_name = { name = name_elizabeth }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1432.3.1
+        birth = coimbra
+        female = yes
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_jaime_avis_coimbra = {
+        first_name = { name = name_james }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1433.9.17
+        birth = coimbra
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_beatriz_avis_coimbra = {
+        first_name = { name = name_beatrix }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1435.1.1
+        birth = coimbra
+        female = yes
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_philippa_avis_coimbra = {
+        first_name = { name = name_philippa }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1437.1.1
+        birth = coimbra
+        female = yes
+        father = por_pedro_i_avis_coimbra
+        mother = por_isabel_urgell_coimbra
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    por_henrique_avis_viseu = {
+        first_name = { name = name_henry }
+        nick_name = { name = Navigator }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1394.3.4
+        birth = porto
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    bur_isabel_avis = {
+        first_name = { name = name_elizabeth }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1397.2.21
+        female = yes
+        birth = evora
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = BUR          
+    }
+
+    por_joao_avis_constable = {
+        first_name = { name = name_john }
+        nick_name = { name = Constable Prince }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1400.1.13
+        death_date = 1442.10.18
+        birth = santarem
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    cas_isabel_avis_portugal = {
+        first_name = { name = name_elizabeth }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1428.1.1
+        female = yes
+        birth = barcelos
+        father = por_joao_avis_constable
+        mother = por_isabel_braganca_barcelos
+        dynasty = avis_dynasty
+        tag = POR          
+    }
+
+    cas_beatriz_avis_portugal = {
+        first_name = { name = name_beatrix }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1430.6.1
+        female = yes
+        birth = barcelos
+        father = por_joao_avis_constable
+        mother = por_isabel_braganca_barcelos
+        dynasty = avis_dynasty
+        tag = POR          
+    }
+
+    por_fernando_avis_holy = {
+        first_name = { name = name_ferdinand }
+        nick_name = { name = Holy Prince }
+        culture = portuguese
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1402.9.29
+        death_date = 1443.6.5
+        birth = santarem
+        father = por_joao_i_avis
+        mother = por_philippa_lancaster
+        dynasty = avis_dynasty
+        tag = POR         
+    }
+
+    # Courtiers
+
+    por_lopo_almeida = {
+        first_name = { name = Lopo }
+        last_name = { name = Almeida }
+        culture = portuguese
+        religion = catholic
+        estate = burghers_estate
+        birth_date = 1416.1.1
+        birth = lisbon
+        dynasty = avis_dynasty
+        tag = POR
+    }
+
     ### France
 
     fra_charles_v_valois = { # https://en.wikipedia.org/wiki/Charles_V_of_France
@@ -110263,6 +110719,177 @@ adm = 31 dip = 34 mil = 24
         tag = CNY
     }
 
+    ### Papal States
+
+    pap_clement_vii_avignon = {
+        first_name = { name = name_robert }
+        culture = arpitan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1342.1.1
+        death_date = 1394.9.16
+        birth = annecy
+        dynasty = geneve_dynasty
+        tag = PAP
+    }
+
+    pap_bonifacio_ix = {
+        first_name = { name = name_peter }
+        last_name = { name = Cybo }
+        culture = neapolitan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1350.1.1
+        death_date = 1404.10.1
+        birth = naples
+        tag = PAP
+    }
+
+    pap_alexandros_v_pisa = {
+        first_name = { name = name_peter }
+        culture = greek_culture
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1339.1.1
+        death_date = 1410.5.3
+        birth = elounda
+        tag = PAP
+    }
+
+    pap_giovanni_xxiii_pisa = {
+        first_name = { name = Baldassarre }
+        last_name = { name = Cossa }
+        culture = neapolitan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1365.1.1
+        death_date = 1419.1.1
+        birth = naples
+        tag = PAP
+    }
+
+    pap_martino_v = {
+        first_name = { name = name_otto }
+        culture = median
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1369.1.1
+        death_date = 1431.2.20
+        birth = rome
+        dynasty = colonna_dynasty
+        tag = PAP
+    }
+
+    pap_eugenio_iv = {
+        first_name = { name = name_gabriel }
+        last_name = { name = Condulmer }
+        culture = venetian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1383.1.1
+        birth = venice
+        tag = PAP
+    }
+
+    pap_niccolo_v = {
+        first_name = { name = name_thomas }
+        last_name = { name = Parentucelli }
+        culture = ligurian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1397.11.15
+        birth = sarzana
+        tag = GEN
+    }
+
+    pap_callisto_iii = {
+        first_name = { name = name_alphonse }
+        culture = catalan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1378.12.31
+        birth = valencia
+        dynasty = borja_dynasty
+        tag = ARA
+    }
+
+    pap_pio_ii = {
+        first_name = { name = Enea }
+        culture = tuscan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1405.10.18
+        birth = montalcino
+        dynasty = piccolomini_dynasty
+        tag = SIE
+    }
+
+    pap_paolo_ii = {
+        first_name = { name = name_peter }
+        culture = venetian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1417.2.23
+        birth = venice
+        dynasty = barbo_dynasty
+        tag = VEN
+    }
+
+    pap_sisto_iv = {
+        first_name = { name = name_francis }
+        culture = ligurian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1417.2.23
+        birth = savona
+        dynasty = della_rovere_dynasty
+        tag = GEN
+    }
+
+    pap_innocenzo_viii = {
+        first_name = { name = name_john }
+        last_name = { name = Cybo }
+        culture = ligurian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1432.1.1
+        birth = genoa
+        tag = GEN
+    }
+
+    pap_alessandre_vi = {
+        first_name = { name = name_roderick }
+        culture = catalan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1432.1.1
+        birth = jativa
+        dynasty = borja_dynasty
+        tag = ARA
+    }
+
+    pap_pio_iii = {
+        first_name = { name = name_francis }
+        culture = tuscan
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1439.5.29
+        birth = siena
+        dynasty = piccolomini_dynasty
+        tag = SIE
+    }
+
+    pap_giulio_ii = {
+        first_name = { name = name_julian }
+        culture = ligurian
+        religion = catholic
+        estate = clergy_estate
+        birth_date = 1443.12.5
+        birth = savona
+        dynasty = della_rovere_dynasty
+        tag = GEN
+    }
+
     ### Albania
 
     kat_skanderbeg_kastrioti = { # The man, the myth - https://en.wikipedia.org/wiki/Skanderbeg
@@ -110279,6 +110906,275 @@ adm = 31 dip = 34 mil = 24
         general_trait = military_theorist
         dynasty = kastrioti_dynasty
         tag = KAT
+    }
+
+    ### Byzantine Empire & Morea
+
+    byz_andronikos_iv_palaiologos = {
+        first_name = { name = name_andronikos }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1348.4.11
+        death_date = 1385.6.25
+        birth = constantinople
+        father = byz_john_v_palaiologos
+        mother = byz_helena_kantakouzene
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    byz_keratsa_sratsimir = {
+        first_name = { name = name_keratsa }
+        culture = bulgarian
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1348.1.1
+        death_date = 1400.1.1
+        birth = tarnovo
+        female = yes
+        spouse = byz_andronikos_iv_palaiologos
+        father = bul_ivan_alexander
+        dynasty = sratsimir_dynasty
+        tag = BYZ        
+    }
+
+    byz_ioannes_vii_palaiologos = {
+        first_name = { name = name_john }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1370.1.1
+        death_date = 1408.9.22
+        birth = constantinople
+        father = byz_andronikos_iv_palaiologos
+        mother = byz_keratsa_sratsimir
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    byz_irene_gattilusio = {
+        first_name = { name = name_irene }
+        last_name = { name = Gattilusio }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1385.1.1
+        death_date = 1440.1.1
+        birth = molyvos
+        female = yes
+        spouse = byz_ioannes_vii_palaiologos
+        tag = BYZ        
+    }
+
+    byz_andronikos_v_palaiologos = {
+        first_name = { name = name_andronikos }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1400.1.1
+        death_date = 1407.1.1
+        birth = constantinople
+        father = byz_ioannes_vii_palaiologos
+        mother = byz_irene_gattilusio
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    byz_manuel_ii_palaiologos = {
+        first_name = { name = name_emmanuel }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1350.6.27
+        death_date = 1425.7.21
+        birth = constantinople
+        father = byz_john_v_palaiologos
+        mother = byz_helena_kantakouzene
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    byz_helena_dragas_dejanovic = {
+        first_name = { name = name_helen }
+        culture = serbian
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1372.1.1
+        birth = smederevo
+        female = yes
+        spouse = byz_manuel_ii_palaiologos
+        dynasty = dejanovic_dynasty
+        tag = BYZ        
+    }
+
+    byz_ioannes_viii_palaiologos = {
+        first_name = { name = name_john }
+        culture = greek_culture
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1392.12.18
+        birth = constantinople
+        father = byz_manuel_ii_palaiologos
+        mother = byz_helena_dragas_dejanovic
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    mre_theodore_ii_palaiologos = {
+        first_name = { name = name_theodore }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1396.1.1
+        birth = constantinople
+        father = byz_manuel_ii_palaiologos
+        mother = byz_helena_dragas_dejanovic
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    byz_constantine_xi_palaiologos = { #The Marble Emperor...
+        first_name = { name = name_constantine }
+        nickname = {name = Dragases }
+        culture = greek_culture
+        religion = catholic
+        estate = nobles_estate
+        adm = 72 dip = 70 mil = 86
+        birth_date = 1404.2.8
+        birth = constantinople
+        father = byz_manuel_ii_palaiologos
+        mother = byz_helena_dragas_dejanovic
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    mre_demetrios_palaiologos = {
+        first_name = { name = name_demetrius }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1407.1.1
+        birth = constantinople
+        father = byz_manuel_ii_palaiologos
+        mother = byz_helena_dragas_dejanovic
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    mre_helene_palaiologos_demetrios = { #Later Helene Hatun
+        first_name = { name = name_helen }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1442.4.23
+        birth = anhialo
+        female = yes
+        father = mre_demetrios_palaiologos
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    mre_thomas_palaiologos = {
+        first_name = { name = name_thomas }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1409.1.1
+        birth = constantinople
+        father = byz_manuel_ii_palaiologos
+        mother = byz_helena_dragas_dejanovic
+        dynasty = palaiologos_dynasty
+        tag = BYZ        
+    }
+
+    mre_catherine_zaccaria = {
+        first_name = { name = name_catherine }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1412.1.1
+        birth = constantinople
+        female = yes
+        spouse = mre_thomas_palaiologos
+        dynasty = zaccaria_dynasty
+        tag = BYZ        
+    }
+
+    ser_helene_palaiologos = {
+        first_name = { name = name_helen }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1431.1.1
+        birth = constantinople
+        female = yes
+        spouse = ser_lazar_brankovic
+        father = mre_thomas_palaiologos
+        mother = mre_catherine_zaccaria
+        dynasty = palaiologos_dynasty
+        tag = SER        
+    }
+
+    # Courtiers
+
+    byz_loukas_notaras = {
+        first_name = { name = name_lucas }
+        last_name = { name = Notaras }
+        culture = greek_culture
+        religion = orthodox
+        adm = 54 dip = 76 mil = 78
+        estate = burghers_estate
+        birth_date = 1402.4.5
+        birth = constantinople
+        tag = BYZ          
+    }
+
+    byz_georgios_sphrantzes = {
+        first_name = { name = name_george }
+        last_name = { name = Sphrantzes }
+        culture = greek_culture
+        religion = orthodox
+        adm = 61 dip = 81 mil = 63
+        estate = burghers_estate
+        birth_date = 1401.8.30
+        birth = constantinople
+        tag = BYZ          
+    }
+
+    byz_basileois_bessarion = {
+        first_name = { name = name_basil }
+        last_name = { name = Bessarion }
+        culture = greek_culture
+        religion = catholic
+        adm = 76 dip = 89 mil = 34
+        estate = clergy_estate
+        birth_date = 1403.1.2
+        birth = constantinople
+        tag = BYZ          
+    }
+
+    byz_orhan_celebi_osmanoglu = {
+        first_name = { name = name_orhan }
+        culture = turkish_culture
+        religion = sunni
+        adm = 56 dip = 52 mil = 74
+        estate = nobles_estate
+        birth_date = 1412.1.1
+        birth = bursa
+        dynasty = ottomans_dynasty
+        tag = BYZ          
+    }
+
+    byz_demetrios_kantakouzenos_mesazon = {
+        first_name = { name = name_demetrius }
+        culture = greek_culture
+        religion = orthodox
+        estate = nobles_estate
+        birth_date = 1420.1.1
+        birth = constantinople
+        dynasty = kantakouzenos_dynasty
+        tag = BYZ          
     }
 
     ### Timurid Empire
