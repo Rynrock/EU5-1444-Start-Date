@@ -838,18 +838,16 @@ character_db={
         tag = LAN
     }
 
-
     eng_maud_de_chaworth = {
         first_name = { name = name_matilda }
         culture = english
         female = yes
         religion = catholic
-        birth_date = 1282.1.1
-        death_date = 1350.6.25
+        birth_date = 1282.2.2
+        death_date = 1322.12.3
         birth = kidwelly
         tag = LAN
     }
-
 
     eng_henry_grosmont = {
         first_name = { name = name_henry }
@@ -951,7 +949,6 @@ character_db={
         mother = eng_maud_de_chaworth
         tag = LAN
     }
-
 
     # Rival King of the Romans to Alfonso X of Castile
     eng_richard_of_cornwall = { 
@@ -2046,7 +2043,7 @@ character_db={
         estate = nobles_estate
         adm = 45 dip = 44 mil = 50
         birth_date = 1301.2.6
-        death_date = 1360.5.17
+        death_date = 1352.2.26
         birth = alnwick
         father = eng_henry_percy
         mother = eng_eleanor_fitzalan
@@ -2097,7 +2094,7 @@ character_db={
         estate = nobles_estate
         adm = 27 dip = 51 mil = 69
         birth_date = 1321.1.1
-        death_date = 1375.11.25
+        death_date = 1368.5.18
         birth = alnwick
         father = eng_henry_percy_ii
         mother = eng_idonia_clifford
@@ -44469,7 +44466,7 @@ character_db={
         culture = venetian
         religion = catholic
         estate = nobles_estate
-adm = 31 dip = 34 mil = 24
+        adm = 31 dip = 34 mil = 24
         female = yes
         birth_date = 1272.1.1 # Married in 1285
         death_date = 1323.1.1
@@ -45847,7 +45844,6 @@ adm = 31 dip = 34 mil = 24
         tag = MTA
     }
 
-
     mta_guarnaccia_molucci = {
         first_name = { name = name_guarnaccia }
         culture = median
@@ -45861,7 +45857,6 @@ adm = 31 dip = 34 mil = 24
         dynasty = molucci_dynasty
         tag = MTA
     }
-
 
     mta_fredo_molucci = {
         first_name = { name = name_frederick } # Should use diminutive: Fredo
@@ -45877,7 +45872,6 @@ adm = 31 dip = 34 mil = 24
         tag = MTA
     }
 
-
     mta_muluccio_ii_molucci = {
         first_name = { name = name_muluccio }
         culture = median
@@ -45891,7 +45885,6 @@ adm = 31 dip = 34 mil = 24
         dynasty = molucci_dynasty
         tag = MTA
     }
-
 
     mta_nucciarello_molucci = {
         first_name = { name = name_muluccio } # Should use diminutive: Nucciarello
@@ -45907,7 +45900,6 @@ adm = 31 dip = 34 mil = 24
         tag = MTA
     }
 
-
     mta_vanni_molucci = {
         first_name = { name = name_john } # Giovanni, known as Vanni
         culture = median
@@ -45922,7 +45914,6 @@ adm = 31 dip = 34 mil = 24
         tag = MTA
     }
 
-
     mta_leone_molucci = {
         first_name = { name = name_leon }
         culture = median
@@ -45935,7 +45926,6 @@ adm = 31 dip = 34 mil = 24
         dynasty = molucci_dynasty
         tag = MTA
     }
-
 
     # HOUSE OF MONTEVERDE (Rulers of Fermo)
 
@@ -45969,7 +45959,6 @@ adm = 31 dip = 34 mil = 24
         ruler_trait = sinner
     }
 
-
     # Spouse of the Tyrant of Fermo
     frm_risabella = {
         first_name = { name = name_risabelle }
@@ -45983,7 +45972,6 @@ adm = 31 dip = 34 mil = 24
         spouse = frm_mercenario_monteverde
         tag = FRM
     }
-
 
     # Natural son of the Tyrant of Fermo, would be Captain of the People of Fermo (1373-1376)
     frm_rinaldo_monteverde = { # Bastard
@@ -46006,8 +45994,7 @@ adm = 31 dip = 34 mil = 24
             size = 1
         }
     }
-
-    
+   
     # Sister of the Tyrant of Fermo
     urb_allegreza_monteverde = {
         first_name = { name = name_joy }
@@ -46024,7 +46011,6 @@ adm = 31 dip = 34 mil = 24
         tag = URB
     }
 
-
     # HOUSE STENO (Doges of Venice)
     
     ven_giovanni_steno = {
@@ -46040,8 +46026,7 @@ adm = 31 dip = 34 mil = 24
         dynasty = steno_dynasty
         tag = VEN
     }
-
-    
+   
     ven_lucia_lando = {
         first_name = { name = name_lucia }
         last_name = { name = name_lando }
@@ -46054,8 +46039,7 @@ adm = 31 dip = 34 mil = 24
         birth = venice
         tag = VEN
     }
-
-    
+  
     ven_fantino_steno = {
         first_name = { name = name_fantinus }
         culture = venetian
@@ -46069,8 +46053,7 @@ adm = 31 dip = 34 mil = 24
         dynasty = steno_dynasty
         tag = VEN
     }
-
-    
+  
     ven_michele_steno = {
         first_name = { name = name_michael }
         culture = venetian
@@ -103817,7 +103800,7 @@ adm = 31 dip = 34 mil = 24
         father = dlh_ali
         dynasty = tughlaq_dynasty
         tag = DLH
- }
+    }
     
     #Ruler's Uncle
     dlh_rajab = {
@@ -104105,8 +104088,8 @@ adm = 31 dip = 34 mil = 24
         birth = dvarasamudra
         birth_date = 1250.1.1
         death_date = 1317.10.7
- father = hsl_narasimha_iii_hoysala
- dynasty = hoysala_dynasty
+        father = hsl_narasimha_iii_hoysala
+        dynasty = hoysala_dynasty
         tag = HSL
     }
 
@@ -106790,33 +106773,7 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_edward_of_york = {
-        first_name = { name = name_edward }
-        culture = english
-        religion = catholic
-        adm = 15 dip = 10 mil = 18
-        birth_date = 1442.4.28
-        birth = rouen
-        dynasty = york_dynasty
-        father = eng_richard_of_york_duke
-        mother = eng_cecily_neville
-        tag = ENG
-    }
-
-    eng_edmund_of_york = {
-        first_name = { name = name_edmond }
-        culture = english
-        religion = catholic
-        adm = 4 dip = 8 mil = 5
-        birth_date = 1443.5.17
-        birth = rouen
-        dynasty = york_dynasty
-        father = eng_richard_of_york_duke
-        mother = eng_cecily_neville
-        tag = ENG
-    }
-
-    eng_anne_of_york = {
+    eng_anne_york = {
         first_name = { name = name_anna }
         culture = english
         religion = catholic
@@ -106830,7 +106787,34 @@ adm = 31 dip = 34 mil = 24
         tag = ENG
     }
 
-    eng_elizabeth_of_york = {
+    eng_edward_vi_york = {
+        first_name = { name = name_edward }
+        culture = english
+        religion = catholic
+        adm = 15 dip = 10 mil = 18
+        birth_date = 1442.4.28
+        birth = rouen
+        dynasty = york_dynasty
+        father = eng_richard_of_york_duke
+        mother = eng_cecily_neville
+        child_trait = child_intelligent
+        tag = ENG
+    }
+
+    eng_edmund_york = {
+        first_name = { name = name_edmond }
+        culture = english
+        religion = catholic
+        adm = 4 dip = 8 mil = 5
+        birth_date = 1443.5.17
+        birth = rouen
+        dynasty = york_dynasty
+        father = eng_richard_of_york_duke
+        mother = eng_cecily_neville
+        tag = ENG
+    }
+
+    eng_elizabeth_york = {
         first_name = { name = name_elizabeth }
         culture = english
         religion = catholic
@@ -106843,20 +106827,6 @@ adm = 31 dip = 34 mil = 24
         mother = eng_cecily_neville
         tag = ENG
     }
-
-    eng_henry_of_york = {
-            first_name = { name = name_henry }
-            culture = english
-            religion = catholic
-            adm = 25 dip = 18 mil = 22
-            birth_date = 1441.2.10
-            birth = rouen
-            dynasty = york_dynasty
-            father = eng_richard_of_york_duke
-            mother = eng_cecily_neville
-            child_trait = child_gifted
-            tag = ENG
-        }
 
     #House of Neville
     eng_john_neville = {
@@ -107069,7 +107039,7 @@ adm = 31 dip = 34 mil = 24
         female = yes
         birth_date = 1408.9.1
         spouse = eng_edmund_beaufort_somerset
-        dynasty = beaufort_dynasty
+        dynasty = beauchamp_dynasty
         tag = ENG
     }
 
@@ -107151,37 +107121,107 @@ adm = 31 dip = 34 mil = 24
     }
 
     #House of Percy
-    eng_henry_percy_northumberland = {
+    eng_mary_lancaster_percy = {
+        first_name = { name = name_mary }
+        culture = northumbrian
+        religion = catholic
+        female = yes
+        birth_date = 1320.1.1
+        death_date = 1362.9.1
+        birth = lancaster
+        dynasty = lancaster_dynasty
+        spouse = eng_henry_percy_iii
+        father = eng_henry_lancaster
+        mother = eng_maud_de_chaworth
+        tag = LAN
+    }
+
+    eng_henry_percy_1st_earl_northumberland = {
         first_name = { name = name_henry }
         culture = english
         religion = catholic
         estate = nobles_estate
         adm = 48 dip = 44 mil = 60
-        birth_date = 1393.2.3
+        birth_date = 1341.11.10
+        death_date = 1408.2.20
         birth = alnwick
         dynasty = percy_dynasty
-        father = eng_henry_percy_first
-        mother = eng_maud_lucy
+        father = eng_henry_percy_iii
+        mother = eng_mary_lancaster_percy
         tag = ENG
     }
 
-    eng_eleanor_neville = {
+    eng_margaret_neville_percy = {
+        first_name = { name = name_margaret }
+        culture = english
+        religion = catholic
+        female = yes
+        birth_date = 1329.2.12
+        death_date = 1372.5.12
+        birth = lancaster
+        dynasty = lancaster_dynasty
+        spouse = eng_henry_percy_1st_earl_northumberland
+        father = eng_ralph_neville
+        tag = LAN
+    }
+
+    eng_henry_percy_hotspur = {
+        first_name = { name = name_henry }
+        nick_name = { name = Hotspur }
+        culture = northumbrian
+        religion = catholic
+        birth_date = 1361.5.20
+        death_date = 1403.7.21
+        father = eng_henry_percy_1st_earl_northumberland
+        mother = eng_margaret_neville_percy
+        dynasty = percy_dynasty
+        tag = ENG
+    }
+
+    eng_elizabeth_percy_mortimer = {
+        first_name = { name = name_elizabeth }
+        culture = english
+        religion = catholic
+        female = yes
+        birth_date = 1371.2.12
+        death_date = 1417.4.20
+        spouse = eng_henry_percy_hotspur
+        #father = 
+        mother = eng_philippa_plantagenet_clarence
+        dynasty = mortimer_dynasty
+        tag = ENG
+    }
+
+    eng_henry_percy_2nd_earl_northumbria = {
+        first_name = { name = name_henry }
+        culture = english
+        religion = catholic
+        estate = nobles_estate
+        birth_date = 1393.2.3
+        birth = alnwick
+        father = eng_henry_percy_hotspur
+        mother = eng_elizabeth_percy_mortimer
+        dynasty = percy_dynasty
+        tag = ENG
+    }
+
+    eng_eleanor_neville_percy = {
         first_name = { name = name_eleanor }
         culture = english
         religion = catholic
         estate = nobles_estate
         adm = 38 dip = 52 mil = 56
         female = yes
-        birth_date = 1398.2.1
+        birth_date = 1398.1.1
         birth = durham
-        dynasty = neville_dynasty
+        spouse = eng_henry_percy_2nd_earl_northumbria
         father = eng_ralph_neville_westmorland
         mother = eng_joan_beaufort_neville
-        spouse = eng_henry_percy_northumberland
+        dynasty = neville_dynasty
         tag = ENG
     }
 
-    eng_henry_percy_third = {
+    eng_henry_percy_3rd_earl_northumbria = {
         first_name = { name = name_henry }
         culture = english
         religion = catholic
@@ -107190,49 +107230,36 @@ adm = 31 dip = 34 mil = 24
         birth_date = 1421.7.25
         birth = alnwick
         dynasty = percy_dynasty
-        father = eng_henry_percy_northumberland
-        mother = eng_eleanor_neville
+        father = eng_henry_percy_2nd_earl_northumbria
+        mother = eng_eleanor_neville_percy
         tag = ENG
     }
 
-    eng_henry_percy_first = {
-        first_name = { name = name_henry }
+    eng_thomas_percy_1st_baron_egremont = {
+        first_name = { name = name_thomas }
         culture = english
         religion = catholic
-        birth_date = 1341.1.1
-        death_date = 1408.2.21
+        estate = nobles_estate
+        birth_date = 1422.10.20
+        birth = alnwick
         dynasty = percy_dynasty
+        father = eng_henry_percy_2nd_earl_northumbria
+        mother = eng_eleanor_neville_percy
         tag = ENG
     }
 
-    eng_charles_percy_young = {
-        first_name = { name = name_charles }
+    eng_catherine_percy_grey = {
+        first_name = { name = name_catherine }
         culture = english
         religion = catholic
-        birth_date = 1440.1.1
-        dynasty = percy_dynasty
-        tag = ENG
-    }
-
-    eng_maud_lucy = {
-        first_name = { name = Maud }
-        last_name = { name = Lucy }
-        culture = english
-        religion = catholic
+        estate = nobles_estate
         female = yes
-        birth_date = 1343.1.1
-        death_date = 1398.7.18
-        spouse = eng_henry_percy_first
-        tag = ENG
-    }
-
-    eng_richard_percy = {
-        first_name = { name = name_richard }
-        culture = english
-        religion = catholic
-        birth_date = 1439.12.1
+        birth_date = 1423.5.18
+        birth = alnwick
+        spouse = eng_edmund_grey_1st_earl_kent
+        father = eng_henry_percy_2nd_earl_northumbria
+        mother = eng_eleanor_neville_percy
         dynasty = percy_dynasty
-        spouse = eng_henry_percy_first
         tag = ENG
     }
 
@@ -107240,17 +107267,22 @@ adm = 31 dip = 34 mil = 24
         first_name = { name = name_ralph }
         culture = english
         religion = catholic
+        estate = nobles_estate
         birth_date = 1423.11.1
+        father = eng_henry_percy_2nd_earl_northumbria
+        mother = eng_eleanor_neville_percy
         dynasty = percy_dynasty
         tag = ENG
     }
 
-    eng_joanna_percy = {
-        first_name = { name = name_joanna }
+    eng_william_percy_bishop = {
+        first_name = { name = name_william }
         culture = english
         religion = catholic
-        female = yes
-        birth_date = 1442.1.1
+        estate = clergy_estate
+        birth_date = 1428.4.7
+        father = eng_henry_percy_2nd_earl_northumbria
+        mother = eng_eleanor_neville_percy
         dynasty = percy_dynasty
         tag = ENG
     }

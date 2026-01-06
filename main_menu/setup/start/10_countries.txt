@@ -6146,10 +6146,7 @@ countries = {
                 ruler_term = { character = uls_william_donn_de_burgh_3rd_earl_ulster start_date = 1326.7.29 end_date = 1333.6.6 }
 
                 regency = lordship_of_ireland_regency
-                active_regent = eng_edward_iii
-                start_regency_date = 1333.6.6
-                end_regency_date = 1350.3.5
-                heir = uls_elizabeth_de_burgh_4th_countess_ulster
+                ruler = eng_richard_of_york_duke
             }
             tolerated_cultures = { irish }
 
