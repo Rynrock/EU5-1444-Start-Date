@@ -100216,6 +100216,31 @@ character_db={
         tag = MAJ
     }
 
+    maj_dyah_nertaja = { #Daughter to maj_tribhuwana mother of maj_vikramavardhana
+        first_name = { name = Dyah_Nertaja }
+        culture = javanese_culture
+        religion = hindu
+        birth_date = 1340.1.1 #Unknown, younger to maj_hayam_wuruk
+        birth = trowulan
+        female = yes
+        death_date = 1390.1.1 #Unknown (guessing)
+        mother = maj_tribhuwana
+        father = maj_cakradhara
+        dynasty = rajasa_dynasty
+        spouse = maj_singhawardhana
+        tag = MAJ
+    }
+
+    maj_singhawardhana = { #Daughter to maj_tribhuwana mother of maj_vikramavardhana
+        first_name = { name = Singhawardhana }
+        culture = javanese_culture
+        religion = hindu
+        birth_date = 1330.1.1 #Unknown guess
+        birth = trowulan
+        death_date = 1380.1.1
+        spouse = maj_dyah_nertaja
+        tag = MAJ
+    }
 
     maj_raden_wijaya = {
         first_name = { name = Raden_Wijaya }
@@ -100248,7 +100273,7 @@ character_db={
     }
 
 
-    maj_hayam_wuruk = { #Heir
+    maj_hayam_wuruk = {
         first_name = { name = Hayam_Wuruk }
         culture = javanese_culture
         religion = hindu
@@ -100260,7 +100285,59 @@ character_db={
         mother = maj_tribhuwana
         father = maj_cakradhara
         tag = MAJ
-        child_trait = child_prodigy
+    }
+
+    maj_vikramavardhana = {
+        first_name = { name = Ikramavardhana }
+        culture = javanese_culture
+        religion = hindu
+        adm = 20 dip = 63 mil = 52 # Had to Co-Rule, Good relations with China, Invaded Singapore
+        birth_date = 1365.1.1
+        death_date = 1429.1.1
+        birth = trowulan
+        dynasty = rajasa_dynasty
+        mother = maj_dyah_nertaja
+        father = maj_singhawardhana
+        spouse = maj_bhre_daha
+        tag = MAJ
+    }
+
+    maj_bhre_daha = {
+        first_name = { name = Bhre_daha }
+        culture = javanese_culture
+        religion = hindu
+        female = yes
+        birth_date = 1380.1.1 #Unknown guess
+        birth = trowulan
+        death_date = 1430.1.1 #Unknown guess
+        spouse = maj_vikramavardhana
+        tag = MAJ
+    }
+
+    maj_sri_suhita = {
+        first_name = { name = Sri_Suhita }
+        culture = javanese_culture
+        religion = hindu
+        female = yes
+        adm = 41 dip = 66 mil = 55 #Guess, Legend associated with her, Guess
+        birth_date = 1405.1.1 #Unknown rough guess
+        birth = trowulan
+        dynasty = rajasa_dynasty
+        father = maj_vikramavardhana
+        mother = maj_bhre_daha
+        tag = MAJ
+    }
+
+    maj_kertawijaya = {
+        first_name = { name = Kertawijaya }
+        culture = javanese_culture
+        religion = hindu
+        adm = 31 dip = 52 mil = 23 #Disaster game start, good relations with 
+        birth_date = 1410.1.1 #Unknown, younger than maj_sri_suhita
+        birth = trowulan
+        father = maj_vikramavardhana
+        dynasty = rajasa_dynasty
+        tag = MAJ
     }
 
 
@@ -100347,6 +100424,20 @@ character_db={
         mother = maj_dara_petak
         father = maj_raden_wijaya
         death_date = 1328.1.1
+        tag = MAJ
+    }
+
+    maj_tribhuwana_ijayatunggadewi = {
+        first_name = { name = Tribhuwana_Ijayatunggadewi }
+        female = yes
+        culture = javanese_culture
+        religion = hindu
+        birth_date = 1309.1.1 #unknown
+        birth = trowulan
+        dynasty = rajasa_dynasty
+        mother = maj_dara_petak
+        father = maj_raden_wijaya
+        death_date = 1374.1.1 # 1372-1375 so just chose a middle ground
         tag = MAJ
     }
 

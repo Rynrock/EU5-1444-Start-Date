@@ -55360,9 +55360,12 @@ countries = {
             government = {
                 ruler_term = { character = maj_raden_wijaya start_date = 1293.1.1 end_date = 1309.1.1 regnal_number = 1 }
                 ruler_term = { character = maj_jayanagara start_date = 1309.1.1 end_date = 1328.1.1 regnal_number = 1 }
-                ruler_term = { character = maj_tribhuwana start_date = 1328.1.1 regnal_number = 1 }
+                ruler_term = { character = maj_tribhuwana start_date = 1328.1.1 end_date = 1350.1.1 regnal_number = 1 }
+                ruler_term = { character = maj_hayam_wuruk start_date = 1350.1.1 end_date = 1389.1.1 regnal_number = 1 }
+                ruler_term = { character = maj_vikramavardhana start_date = 1389.1.1 end_date = 1429.1.1 regnal_number = 1 }
+                ruler_term = { character = maj_sri_suhita start_date = 1429.1.1 regnal_number = 1 }
 
-                ruler = maj_tribhuwana
+                ruler = maj_sri_suhita
 
                 laws = {
                     medieval_levy_law = noble_levies
